@@ -1,0 +1,62 @@
+<!-- about Section --> 
+<section class="inner_pages">
+     <div class="container">
+          <div class="row">  
+               <div class="col-sm-12">
+                    <div class="col-sm-12 padding_0">
+                         <section class="elementor-section elementor-top-section elementor-element elementor-element-4a749d73 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4a749d73" data-element_type="section">
+                              <div class="elementor-container elementor-column-gap-default">
+                                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4b900496" data-id="4b900496" data-element_type="column">
+                                   <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-5bc6df44 elementor-widget elementor-widget-text-editor" data-id="5bc6df44" data-element_type="widget" data-widget_type="text-editor.default">
+                                             <div class="elementor-widget-container">
+                                             <style>/*! elementor - v3.9.2 - 21-12-2022 */
+                                                  .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}
+                                             </style>
+                                             <p><strong>Notice</strong> <br>Royaldrive Pre Owned Cars Llp (“Royaldrive”, “we”, “ours” or “us”) takes the privacy of your personal information seriously. This privacy statement (“Policy”) was created to explain how Royaldrive gathers, keeps, utilises, and disseminates your personal information within the confines of its application. Before accessing associated Royaldrive websites, kindly read this Policy.</p>
+                                             <p>The latest version of the Policy will always be available here.</p>
+                                             <p>All Royaldrive websites that connect to it (collectively, the “Site”) are subject to this Policy. Additional privacy notices or addendums may be applicable for certain features or services on our site. Websites owned by other parties may link to Royaldrive websites. When you use third parties’ services, your personal information may be collected by them; as a result, Royaldrive advises you to get familiar with their privacy policies.</p>
+                                             <p>If the personal information you provided to us includes the information of other people, you guarantee that you have their consent.</p>
+                                             <p>You accept that you have consented to our processing of your personal information in line with the Policy by using the Site.</p>
+                                             <p><strong>Collection of your information</strong><br>Royaldrive may gather specific information about you when you use the Site, as detailed in this Policy. You can distinguish between the information you provide Royaldrive and the information it gathers. We may also get from third parties’ personal information that is required for your use of the Services, as authorised by relevant laws or with your prior consent.</p>
+                                             <p>Depending on how you use the Service, we may acquire personal information about you. For instance,</p>
+                                             <p>We may gather traffic data, such as your IP address and information from cookies, such as the number of visitors, access times, and user preferences, when you visit the site. You may submit your resume and/or contact information when you seek for work with Royaldrive or apply for a position there.</p>
+                                             <p><strong>Use of personal information</strong><br>Your personal data is used by Royaldrive for the following purposes:</p>
+                                             <p>In the reasonable interest of Royaldrive, namely:</p>
+                                             <p>to answer your questions;</p>
+                                             <p>to make the Services more secure by implementing measures including user authentication, security, fraud detection, filing, and backups;</p>
+                                             <p>to assess your employment application;</p>
+                                             <p>You subscribed to the Services in order to carry out any activity; or</p>
+                                             <p>for internal uses including research, data analysis, and auditing.</p>
+                                             <p>To carry out our agreement with you, for instance:</p>
+                                             <p>to do additional services that you need;</p>
+                                             <p>To fulfil Royaldrive’s statutory requirements,</p>
+                                             <p>To send you electronic messages with your permission informing you of new goods and services; to use some optional cookies to gather information about your activity in order to enhance user experience, perfect function design, or to deliver better services;</p>
+                                             <p>or</p>
+                                             <p>We could also hire one or more outside service providers to distribute online ads on our behalf through the Services. They may gather data about your use of the Services using pixel tags or other similar technology, and they may use that data to target advertising for Royaldrive goods and services.</p>
+                                             <p><strong>Sharing of personal information</strong> <br>We do not and will never sell any personal information to any parties.</p>
+                                             <p>Your personal information will not be disclosed by Royaldrive unless (I) you have given your prior written consent; (II) disclosure is necessary to provide the Services; (III) is required by law; or (IV) is necessary to protect Royaldrive’s legitimate interests, such as when it needs to defend its rights in administrative or judicial proceedings or when selling all or a portion of its business.</p>
+                                             <p>Royaldrive mandates that its personnel uphold the privacy of your information and safeguard it in line with the Policy. Access to your personal information is restricted to those who have a legitimate need to know.</p>
+                                             <p><strong>Storage and security of personal information</strong> <br>Your personal information is kept on file by Royaldrive for as long as is necessary to deliver the Services or address your inquiries. Three years will pass before traffic data is deleted. Other information will only be kept as long as it is required for the reasons outlined in this Policy, unless the user requests differently or it is allowed by law.</p>
+                                             <p>To protect personal information, we have put in place administrative, technological, and physical security measures that are appropriate from a business standpoint. We also analyse and evaluate the efficiency of our security procedures on a regular basis.</p>
+                                             <p>Despite the aforementioned, no form of electronic storage or communication over the Internet can be completely safe. Therefore, with the current security technology, Royaldrive is unable to ensure that your personal information is completely secure.</p>
+                                             <p><strong>Transfer of personal information outside of your jurisdiction</strong> <br>If we must transfer personal data outside of your country, whether to one of our related businesses or a third-party service provider, we will do so in compliance with all relevant regulations. We will specifically make sure that any transfers adhere to the requirements of any applicable local data protection legislation by putting in place the necessary measures. You have the right to know what safety measures Royaldrive has taken to protect your personal information during this transmission.</p>
+                                             <p>Royaldrive now has a data centre in Dubai. You are aware that various risks are covered by relevant data protection legislation, and that we may transfer and retain your personal information at our facilities abroad. However, this does not alter our steadfast dedication to protecting your personal data in any way.</p>
+                                             <p><strong>Your rights</strong> <br>Maintaining the accuracy of your personal information enables us to present you with offers that are most pertinent to you. Through your Account profile, you may see, modify, or remove your personal information. In addition to help you manage your subscriptions; we can also help you delete your current profile and data and deactivate your account.</p>
+                                             <p>You have the right to object at any time to our use of your data for “legitimate interest” purposes for reasons specific to your own circumstances. If you exercise your right to object, we shall cease processing your data unless we can provide sufficient justification that outweighs your rights.</p>
+                                             <p>Unless a longer retention time is mandated or allowed by relevant legislation, we will only keep your personal information as long as it takes to achieve the purpose stated in this Policy.</p>
+                                             <p>You have certain rights regarding your personal information if you reside in the European Union, subject to any restrictions imposed by relevant legislation. These rights include the right to access, correction, restriction, objection, and portability. Using the contact details provided below, please get in touch with us to exercise your rights. Additionally, you have the unrestricted, free right to revoke your permission at any moment. You may accomplish this by choosing not to participate in direct marketing campaigns and by configuring your browser to utilise no cookies. You have the right to file a complaint with the data protection authorities in your country or area if you have concerns about how we treat your personal information.</p>
+                                             <p><strong>Use of cookies</strong><br>Cookies and other technologies are also used by us to maintain records, retain your preferences, enhance our advertising, and gather non-personally-identifying data such as log data and device data. This helps us better comprehend how you use our services, identify and fix any issues you have, and generally manage and enhance our services. Cookies are used to enhance the user experience on our websites. Your browser can be configured to recognise and refuse cookies.</p>
+                                             <p><strong>Contact method</strong><br>You may get in touch with us at sales@Royaldrive.ae &nbsp;if you have any queries or issues regarding how Royaldrive uses your personal information. If you still have concerns, you have the right to file a complaint with your country’s or region’s supervisory authority for data protection.</p>
+                                             <p>&nbsp;</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   </div>
+                              </div>
+                         </section>               
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>

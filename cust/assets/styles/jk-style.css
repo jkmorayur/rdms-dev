@@ -1,0 +1,108 @@
+/* 
+    Created on : May 23, 2018, 10:43:35 PM
+    Author     : jk morayur
+*/
+
+/*Budjet bubble*/
+.bubble 
+{
+     display: none;
+     position: absolute;
+     height: auto;
+     padding: 0px;
+     background: #FFFFFF;
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     border-radius: 20px;
+     border-top: none;
+     width: 100%;
+     z-index: 999;
+     min-height: 57px;
+     border: 1px solid #ddd;
+     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.11);
+}
+
+.budget {
+     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wMdBhAJ/fwnjwAAAGFJREFUKM9jYBh+gBFKuzEwMKQwMDB8xaOWlYGB4T4DA0MrsuapDAwM//HgNwwMDDbYTJuGQ8MHBgYGJ1xOYGNgYJiBpuEpAwODHSF/siDZ+ISBgcGClEDqZ2Bg8B6CkQsAPRga0cpRtDEAAAAASUVORK5CYII=");
+     background-position: right 10px center;
+     background-repeat: no-repeat;
+     cursor: pointer;
+}
+.liBudget {
+     list-style: none;
+     width: 100%;
+     display: inline-table;
+}
+.liBudget li {
+     min-height: 25px;
+     padding: 10px 2px 5px 5px;
+     cursor: pointer;
+}
+
+.liBudget li:hover {
+     background: #e4e4e4;
+}
+
+.inputs-budget{
+
+     width:100%;
+     height:50px;
+     border: 1px solid #bcbcbc;
+     font-family: 'Roboto', sans-serif;
+     font-size:16px;
+     padding-left:5%;
+     transition: all 0.3s ease;
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease; 
+}
+.txtHomeSerachBudgetFrom {
+     margin: 8px 0px 8px 8px; height: 28px; float: left;width: 43%;
+     border-radius: 5px;
+     border: 1px solid #cfcfcf;
+     color: rgba(51,51,51,0.8);
+     outline: none;
+     padding: 5px;
+     font-size: 12px;
+}
+.txtHomeSerachBudgetTo {
+     margin: 8px 8px 8px 0px; height: 28px; float: right;width: 43%;
+     border-radius: 5px;
+     border: 1px solid #cfcfcf;
+     color: rgba(51,51,51,0.8);
+     outline: none;
+     padding: 5px;
+     font-size: 12px;
+}
+/*Budjet bubble end*/
+
+.form-control-textarea {
+     display: block;
+     width: 100%;
+     padding: 15px 30px;
+     font-size: 16px;
+     line-height: 1.42857143;
+     color: rgba(51,51,51,0.8);
+     background-color: #fff;
+     border: none;
+     border-radius: 50px;
+     border: 1px solid #cfcfcf;
+     outline: none;
+}
+.txt-center {
+     text-align: center;
+}
+.trash-sell-vehicle {
+     position: absolute;color: red;font-size: 23px;right: 12px;top: 23px;cursor: pointer;
+}
+@media (max-width:760px) {
+/*     #Latest_tab {
+          display: none !important;
+     }
+     #popular_tab {
+          display: none !important;
+     }
+     #rdmini_tab {
+          display: none !important;
+     }*/
+}

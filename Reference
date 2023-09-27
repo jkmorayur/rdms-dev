@@ -1,0 +1,39 @@
+Datetime picker
+---------------
+<input  type="text" placeholder="click to show datepicker"  class="datepicker">
+
+Export to Excel
+---------------
+$this->load->library("excel");
+$this->excel->setActiveSheetIndex(0);
+$this->excel->stream(rand(0, 99999) . '.xls', $data['registrationList']);
+
+ddslick
+---------------
+<select id="htmlselect" name="sss" control-name='controlName'>
+     <option value="0" data-imagesrc="images/pp.png">Facebook</option>
+     <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png">Twitter</option>
+     <option value="2" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png">LinkedIn</option>
+     <option value="3" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png">Foursquare</option>
+</select>
+
+Set layout
+--------------
+$this->template->set_layout('default');
+
+Captcha
+--------------
+
+01. view
+
+<div id="captImg" class="captchaimg"><?php echo $jcaptcha;?></div>
+<img src="images/refresh.png" alt="" class="refresh refreshCaptcha"> 
+<input name="captcha"  id='captcha' type="text" class="captcha-quick"  placeholder="Type chapcha code" />
+
+02.controller
+
+$captcha = loadCaptcha();
+if (!empty($captcha)) {
+     $this->session->set_userdata('captcha-checkout', $captcha['word']);
+     $data['jcaptcha'] = $captcha['image'];
+}
