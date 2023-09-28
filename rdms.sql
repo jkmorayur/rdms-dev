@@ -682,7 +682,7 @@ INSERT INTO `cpnl_countries` (`id`, `sortname`, `name`) VALUES
 (50, 'CD', 'Congo The Democratic Republic Of The'),
 (51, 'CK', 'Cook Islands'),
 (52, 'CR', 'Costa Rica'),
-(53, 'CI', 'Cote D\'Ivoire (Ivory Coast)'),
+(53, 'CI', 'Cote D"Ivoire (Ivory Coast)'),
 (54, 'HR', 'Croatia (Hrvatska)'),
 (55, 'CU', 'Cuba'),
 (56, 'CY', 'Cyprus'),
@@ -926,7 +926,7 @@ INSERT INTO `cpnl_country` (`cnt_id`, `cnt_name`) VALUES
 (31, 'Malappuram '),
 (32, 'kozhikode'),
 (33, 'inds'),
-(34, '360 degree sim\'s pvt ltd'),
+(34, '360 degree sim"s pvt ltd'),
 (35, 'Kerala '),
 (36, '1st Floor, K.K tower, Kozhikode Bypass, Pantheeramkavu, Kerala 673019'),
 (37, 'indaia'),
@@ -4664,7 +4664,7 @@ INSERT INTO `cpnl_occupation` (`occ_id`, `occ_name`) VALUES
 (1533, 'Business (own ) managing director '),
 (1534, 'banglour '),
 (1535, 'Business (brthr doing  videocon dhl kerala head)'),
-(1536, 'BUSINESS BYJU\'S  (principal management level)'),
+(1536, 'BUSINESS BYJU"S  (principal management level)'),
 (1537, 'Talis showroom'),
 (1538, 'SURGICAL SALES'),
 (1539, 'KVR'),
@@ -5571,7 +5571,7 @@ INSERT INTO `cpnl_occupation` (`occ_id`, `occ_name`) VALUES
 (2439, 'Police officer (@ DGP OFFICE) (HAVE A SIDE BUSINESS)'),
 (2440, 'Modelling Artist '),
 (2441, 'influencer'),
-(2442, 'BUSINESS SHADIN\'S ENTERPRISES'),
+(2442, 'BUSINESS SHADIN"S ENTERPRISES'),
 (2443, 'CABLE OPERATOR'),
 (2444, 'Supermarket / Qatar'),
 (2445, 'working in Kia'),
@@ -5674,7 +5674,7 @@ INSERT INTO `cpnl_occupation` (`occ_id`, `occ_name`) VALUES
 (2542, 'Refinery Contract '),
 (2543, 'Footwear Business '),
 (2544, 'Deler '),
-(2545, 'Men\'s Wear'),
+(2545, 'Men"s Wear'),
 (2546, 'REFAINARY  EQUIPMENT MAINTAINCE OWNER'),
 (2547, 'Business (Owner)'),
 (2548, 'I T FIELD'),
@@ -5844,7 +5844,7 @@ INSERT INTO `cpnl_occupation` (`occ_id`, `occ_name`) VALUES
 (2712, 'CHIKEN BUSINESS'),
 (2713, 'Executive Engineer'),
 (2714, 'manager @ Palace'),
-(2715, 'BAVA\'S SWEETS OWNER '),
+(2715, 'BAVA"S SWEETS OWNER '),
 (2716, 'ASST CHATTERD ACCOUNDANT'),
 (2717, 'bilding , rent  businus '),
 (2718, 'BUSINESS (HOTEL)'),
@@ -8317,7 +8317,7 @@ INSERT INTO `cpnl_users` (`usr_id`, `usr_caller_id`, `usr_emp_code`, `usr_design
 (571, NULL, NULL, 24, NULL, NULL, 2, 2, 561, 0, 0x6797bdea, 'Prasanth', '', NULL, 'prasanthtvm@royaldrive.in', NULL, NULL, NULL, NULL, 1610960170, 1621420618, 0, 'Prasanth', 'viswam', NULL, '8593049090', '8593049090', NULL, NULL, NULL, 'nill', NULL, '2584', '1', 24, NULL, '1', NULL, NULL, 100, 100, '2021-01-18 08:56:10', 8, 7, 8, 0, 0, 'https://bit.ly/2MG1HoM', 'PU4vOv3v9kwc1d9Yo6MeZH8AkY51YtreWtSLSBGrew0', 0, '4e65c168f945d5dfd9200c3d7dc889e102e97d82', NULL, NULL, NULL, NULL, NULL, 0, 1, '0', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (895, NULL, NULL, 6, NULL, NULL, 4, 0, 931, 6, 0x674e12b3, 'Sandeep', 'add002247c0b660163c4cb31f5ca6affb90f1f29', NULL, 'sandeepcok@royaldrive.in', NULL, NULL, NULL, NULL, 1648704126, 1680337828, 1, 'Sandeep', 'Sandeep', NULL, '917594859090', '917594859090', NULL, NULL, NULL, 'unknown', NULL, '327', '26', 12, NULL, '1', NULL, NULL, 100, 100, '2022-03-31 05:22:06', 6, 6, 6, 0, 1, 'https://bit.ly/35qkAW9', NULL, 0, NULL, NULL, NULL, NULL, NULL, 'sandeep_asm@royaldrive.in', 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (573, NULL, 'RD00154', 25, NULL, NULL, 1, 1, 38, 0, 0x6797bdea, 'Rajesh Gupta', '9685b37d5797672daec61f395c0c438e2aeb8fd5', NULL, 'rajeshguptamlp@rdsmart.in', NULL, NULL, NULL, NULL, 1611131236, 1643980388, 0, 'Rajesh gupta', 'gupta', NULL, '919037069090', '919037069090', NULL, NULL, NULL, 'Annathottukalam Punchapadam(P.O)Palakkad,Kerala-678634', 'Annathottukalam Punchapadam(P.O)Palakkad,Kerala-678634', '5', '1', 1, NULL, '1', NULL, NULL, 100, NULL, '2021-01-20 08:27:16', 5, 4, 0, 0, 0, 'https://bit.ly/2MJiNSM', 'WtbKreVLjiNXIOgQoMcCfXZjw9za39wEHTX2H9uyTDA', 0, NULL, NULL, '2021-01-15 00:00:00', NULL, '1977-04-15 00:00:00', 'rajeshguptamlp@rdsmart.in', 0, 1, '9495587074', 0, 'NA', 'A. Bhaskaran Guptan', NULL, 0x313074682c506c75732c2042412c, 0x4469706c6f6d61206d6568616e6963616c20456e67696e656572696e67, '1.Bull machine (P)LTD as territory Manager(2019 feb onwards).2.Focus Partsmart  as Senior Manager(2017 march to 2018 november). 3. PVS FORD as Sales Manager(2015 january  to 2017 Jan)  4. Asian Motor  as Sales Head (2011 April to 2014 Dec)  5. Palghat Automotive Pvt Ltd as Area Manager(2007 June to 2011 march) 6. Oman trading Establishment as Sales Consultant ( 2006 feb to 2007 Feb). 7. Sakthi Automobiles  as Deputy manager (2000 jan  to 2006 Jan)', 'yes', '20250968464', 'SBI', 'SBIN0001660', '2022-02-04', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
-(575, NULL, 'RD00148', 23, NULL, NULL, 4, 2, 896, 8, 0x679a368b, 'Prasad A', '999c84333ca46b8207ff77ac379bffab663ce312', NULL, 'prasada@royaldrive.in', NULL, NULL, NULL, NULL, 1612416628, 1695812143, 1, 'Prasad', 'A', NULL, '7593039090', '7593039090', '9744235234', NULL, NULL, 'Prasad Bhavan , Thaneermukkom P.O, Alappuzha , Kerala 688527', 'Prasad Bhavan , Thaneermukkom P.O, Alappuzha , Kerala 688527', '', '1', 2, NULL, '1', NULL, NULL, 100, 100, '2021-02-04 05:30:28', 8, 7, 8, 0, 1, 'https://bit.ly/3q6qpw7', 'kY2gYLBzkvwnJ9GY3W7OX1tTa_l95q8Fc5lUJ-6vLXY', 0, NULL, NULL, '2020-12-24 00:00:00', NULL, '1972-05-20 00:00:00', 'pasadcok@royaldrive.in', 0, 0, '9895223768', 1, 'Meera S Nair', 'Aravindakshamenon', '2004-08-27', 0x31307468202c20707265656465677265652c204241204520636f6e6f6d696373202c205047444341, 0x4e4f, '1.M/S Glaze Auto Hub since 1st Jan 2017  2. M/s Platino Classic Motors (India)PVT Ltd for 3 months  3. M/s Focuz carmart , cochin for 8.7 years   4. M/s Sulaiman\'s Al-Saqoob Trading ltd for 11 years', 'Yes', 'SBI , Kaloor branch, 20133146406 , ifsc code: SBIN0008621', 'SBI, Kaloor', 'SBIN0008621', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
+(575, NULL, 'RD00148', 23, NULL, NULL, 4, 2, 896, 8, 0x679a368b, 'Prasad A', '999c84333ca46b8207ff77ac379bffab663ce312', NULL, 'prasada@royaldrive.in', NULL, NULL, NULL, NULL, 1612416628, 1695812143, 1, 'Prasad', 'A', NULL, '7593039090', '7593039090', '9744235234', NULL, NULL, 'Prasad Bhavan , Thaneermukkom P.O, Alappuzha , Kerala 688527', 'Prasad Bhavan , Thaneermukkom P.O, Alappuzha , Kerala 688527', '', '1', 2, NULL, '1', NULL, NULL, 100, 100, '2021-02-04 05:30:28', 8, 7, 8, 0, 1, 'https://bit.ly/3q6qpw7', 'kY2gYLBzkvwnJ9GY3W7OX1tTa_l95q8Fc5lUJ-6vLXY', 0, NULL, NULL, '2020-12-24 00:00:00', NULL, '1972-05-20 00:00:00', 'pasadcok@royaldrive.in', 0, 0, '9895223768', 1, 'Meera S Nair', 'Aravindakshamenon', '2004-08-27', 0x31307468202c20707265656465677265652c204241204520636f6e6f6d696373202c205047444341, 0x4e4f, '1.M/S Glaze Auto Hub since 1st Jan 2017  2. M/s Platino Classic Motors (India)PVT Ltd for 3 months  3. M/s Focuz carmart , cochin for 8.7 years   4. M/s Sulaiman"s Al-Saqoob Trading ltd for 11 years', 'Yes', 'SBI , Kaloor branch, 20133146406 , ifsc code: SBIN0008621', 'SBI, Kaloor', 'SBIN0008621', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (894, NULL, NULL, 18, NULL, NULL, 2, 0, 939, 8, 0x674e12b3, 'Rajesh', '', NULL, 'rajeshclt@royaldrive.in', NULL, NULL, NULL, NULL, 1648702825, 1659422207, 0, 'Rajesh', 'Rajesh', NULL, '918593059090', '918593059090', NULL, NULL, NULL, 'unknown', NULL, '327', '1', 8, NULL, '1', NULL, NULL, 100, 100, '2022-03-31 05:00:25', 8, 6, 6, 0, 0, 'https://bit.ly/3iOL32z', NULL, 0, 'e27bcb6963479d0b53e0ed3d6381d71f8e52724d', NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2022-08-02', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (577, NULL, NULL, 37, NULL, NULL, 1, 1, 573, 0, 0x3d03d5f4, 'Mubashera', '4443ca922909e3a4afdbaf061d1fdba8762d1a92', NULL, 'mubasherakp07@gmail.com', NULL, NULL, NULL, NULL, 1612846856, 1629862738, 0, 'Mubashera', 'KP', NULL, '919072949090', '919072949090', NULL, NULL, NULL, 'karuthedathu parambil house, Edappal, malappuram', NULL, '166', '1', 1, NULL, '1', NULL, NULL, 63, 100, '2021-02-09 05:00:56', 7, 10, 0, 0, 0, 'https://bit.ly/3bTzMdn', 'FMj2zqPXjQ957zbUFZgTwt20aSqJ-u-Cl__VzjBf5hE', 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, '0', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (580, NULL, NULL, 5, NULL, NULL, 4, 2, 19, 0, 0x6797bdef, 'Ranjith', '11dd97835857f678ad2f31ab5e8dae069e91b788', NULL, 'ranjithcok@royaldrive.in', NULL, NULL, NULL, NULL, 1613193393, 1627378777, 0, 'Ranjith', 'Ranjith', NULL, '919567359090', '919567359090', NULL, NULL, NULL, 'nill', NULL, '2584', '58', 215, NULL, '39', NULL, NULL, 100, 100, '2021-02-13 05:16:33', 5, 9, 6, 0, 0, 'https://bit.ly/380Ydop', 'wfz-107Mik3Jl6BZZ5OgRGbcnguhP0Do-dXFiH2vb9g', 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, 1, '0', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0', NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
@@ -8534,7 +8534,7 @@ INSERT INTO `cpnl_users` (`usr_id`, `usr_caller_id`, `usr_emp_code`, `usr_design
 (987, NULL, 'RD00357', 78, NULL, NULL, 4, 0, NULL, 0, NULL, 'Rajesh K T', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 'Rajesh ', 'K T', NULL, '7902703030', '7902703030', '9495001181', NULL, NULL, 'C/O. Sheeja N P, 60/2143, Kalapurackal House, Azad Road, Kaloor P.O, Ernakulam, Kerala - 682017', 'C/O. Sheeja N P, 60/2143, Kalapurackal House, Azad Road, Kaloor P.O, Ernakulam, Kerala - 682017', '', 'Kerala', 2, '', 'India', NULL, NULL, 590, NULL, '2023-01-31 11:30:59', 0, 0, 0, 0, 0, 'https://bit.ly/3Domap1', NULL, 0, NULL, '', '2023-01-02 00:00:00', NULL, '1971-01-12 00:00:00', NULL, 1, 0, '', 1, '', 'K V Thankappan', '2016-12-24', 0x53534c432c20495449202d204d6f746f722076656869636c6573, 0x49544920202d4d6f746f722056656869636c6573, '1. Popular Vehicles & Services (Toyota Truck), Supervisor- 1992 - 2000, 2. Popular Mega Motors as Sr. Supervisor- Dealer of Tata Trucks & Bus - 2001 -2008, 3. GSS Soil Testing company as CPT Operator - 2008-09, 4. Peninsular Honda as Floor Incharge - 2009-10, 5.  Audi - Kochi as Job controller (Mechanical, Body & panit section - 2010 - 2018, 6. Petes Automotive - as Job Controller  - 2019-2021.', 'yes', '1.4131230102227E+14', '', 'UBIN0DCBEDC', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (988, NULL, 'RD00358', 0, NULL, NULL, 4, 0, NULL, 0, NULL, 'Ananthu A', NULL, NULL, NULL, 'e93461bb1c5958d04bc230d3e5e31d7761e0c586', NULL, NULL, NULL, NULL, NULL, 0, 'Ananthu', 'A', NULL, '96452 89090', '96452 89090', '7034781064', NULL, NULL, 'Varadanam, Vettuveni, Haripad, Haripad, Alappuzha, Kerala -690514', 'Varadanam, Vettuveni, Haripad, Haripad, Alappuzha, Kerala -690514', '', 'Kerala', 2, NULL, 'India', NULL, NULL, 590, NULL, '2023-01-31 12:03:49', 0, 0, 0, 0, 0, 'https://bit.ly/3HGkGrV', NULL, 0, NULL, NULL, '2023-01-21 00:00:00', NULL, '1999-09-20 00:00:00', NULL, 1, 1, '9249418319', 1, 'Athira', 'Anil', '2016-12-24', 0x53534c432c20506c75732054776f, '', 'Fresher', '', '', NULL, '', '2023-06-07', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 8, 'Unknown date and reason'),
 (989, NULL, 'RD00358', 53, NULL, NULL, 4, 0, NULL, 0, NULL, 'Ananthu A', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Ananthu', 'A', NULL, '96452 89090', '96452 89090', '7034781064', NULL, NULL, 'Varadanam, Vettuveni, Haripad, Haripad, Alappuzha, Kerala -690514', 'Varadanam, Vettuveni, Haripad, Haripad, Alappuzha, Kerala -690514', 'Ernakulam', 'Kerala', 2, NULL, 'India', NULL, NULL, 590, NULL, '2023-01-31 12:03:49', 0, 0, 0, 0, 0, 'https://bit.ly/3HGkGrV', NULL, 0, NULL, NULL, '2023-01-21 00:00:00', NULL, '1999-09-20 00:00:00', NULL, 1, 1, '9249418319', 1, 'Athira', 'Anil', NULL, NULL, NULL, '2+ years of experience as Driver', NULL, NULL, NULL, NULL, '2023-05-04', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 8, 'Unknown date and reason'),
-(990, NULL, 'RD00363', 18, NULL, NULL, 2, 0, 333, 8, NULL, 'Vishnudas', '62ccd03a433fff7169243c231d67667127eefc04', NULL, 'vishnudas@royaldrive.in', NULL, NULL, NULL, NULL, NULL, 1680233866, 1, 'Vishnudas', 'A', NULL, '918594019090', '918594019090', '9995355036', NULL, NULL, 'Thekkinthurava, Vandithavalam, Palakkad, Kerala - 678534', 'Thekkinthurava, Vandithavalam, Palakkad, Kerala - 678534', 'Vandithavalam', 'Kerala', 10, NULL, 'India', NULL, NULL, 590, 100, '2023-02-08 07:29:28', 8, 7, 6, 0, 1, 'https://bit.ly/3DLWkM7', NULL, 0, NULL, NULL, '2023-02-06 00:00:00', NULL, '1991-01-26 00:00:00', NULL, 1, 0, '9895552635', 0, 'NA', 'Appukuttan', NULL, 0x53534c432c20506c75732054776f2c204469706c6f6d61, 0x4469706c6f6d61202d204175746f6d6f62696c6520456e67696e656572696e67, '1. TATA Motor\'s Vjay Moto\'s Palakkad - Mechanic Trainee (2013-2014) , 2. Grand Hyundai - Sales Consultant (2017 - present)', 'Yes', NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
+(990, NULL, 'RD00363', 18, NULL, NULL, 2, 0, 333, 8, NULL, 'Vishnudas', '62ccd03a433fff7169243c231d67667127eefc04', NULL, 'vishnudas@royaldrive.in', NULL, NULL, NULL, NULL, NULL, 1680233866, 1, 'Vishnudas', 'A', NULL, '918594019090', '918594019090', '9995355036', NULL, NULL, 'Thekkinthurava, Vandithavalam, Palakkad, Kerala - 678534', 'Thekkinthurava, Vandithavalam, Palakkad, Kerala - 678534', 'Vandithavalam', 'Kerala', 10, NULL, 'India', NULL, NULL, 590, 100, '2023-02-08 07:29:28', 8, 7, 6, 0, 1, 'https://bit.ly/3DLWkM7', NULL, 0, NULL, NULL, '2023-02-06 00:00:00', NULL, '1991-01-26 00:00:00', NULL, 1, 0, '9895552635', 0, 'NA', 'Appukuttan', NULL, 0x53534c432c20506c75732054776f2c204469706c6f6d61, 0x4469706c6f6d61202d204175746f6d6f62696c6520456e67696e656572696e67, '1. TATA Motor"s Vjay Moto"s Palakkad - Mechanic Trainee (2013-2014) , 2. Grand Hyundai - Sales Consultant (2017 - present)', 'Yes', NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (991, NULL, 'RD00360', 79, NULL, NULL, 4, 0, 963, 8, NULL, 'Anoop Kumar T S', 'b8f2c67e42cd320a0bc698f566dc6a041cbabac8', NULL, 'anoop@royaldrive.in', NULL, NULL, NULL, NULL, NULL, 1680246266, 0, 'Anoop Kumar', 'T S', NULL, '8594029090', '8594029090', '8129090922', NULL, NULL, 'S/O. Hansa Suresh, 41/195, Arakkaparambil Buildings, Aadampillikkavu Road, Thripunithura, Ernakulam, Kerala - 682301', 'S/O. Hansa Suresh, 41/195, Arakkaparambil Buildings, Aadampillikkavu Road, Thripunithura, Ernakulam, Kerala - 682301', '', 'Kerala', 2, '', 'India', NULL, NULL, 590, 100, '2023-02-08 07:50:23', 8, 7, 6, 0, 1, 'https://bit.ly/3I53Sfk', NULL, 0, NULL, '', '2023-01-30 00:00:00', NULL, '1984-09-15 00:00:00', NULL, 1, 1, '8943747866', 1, 'Revathy', 'T N Suresh', '2013-01-02', 0x42636f6d2c2031322c203130, '', 'Tata Tele Services - Marketing Executive (2007- 09) ,Aaren Initiative - Marketing Executive ( 2009 - 2010) , Sai Service Station - Corporate Sales Consultant ( 2010-2012), EVM Automobiles - Sr. Sales Consultant (2012-14), Rajasree Motors - Sr. Sales consultant (2014-2016), EVM - Area Sales Manager (2016-2022)', 'yes', '', '', '', '2023-06-22', 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 8, 'unknown date and reason.'),
 (992, NULL, 'RD00362', 14, NULL, NULL, 4, 0, NULL, 27, NULL, 'Diya Joy', 'bd45db986c3c53c04086ab63d7eed92f51b61ed7', NULL, 'diyajoy@royaldrive.in', NULL, NULL, NULL, NULL, NULL, 1695783775, 1, 'Diya', ' Joy', NULL, '7034279090', '7034279090', '9895169923', NULL, NULL, 'C/O. Joy, Thottumkalthara, Neendakara, Ezhupunna,\nAlappuzha, Kerala 688537', 'C/O. Joy, Thottumkalthara, Neendakara, Ezhupunna,\nAlappuzha, Kerala 688537', '', 'Kerala', 1, '', 'India', NULL, NULL, 100, 100, '2023-02-16 12:13:08', 11, 0, 6, 0, 1, 'https://bit.ly/3IqEFfw', NULL, 0, NULL, '', '2023-02-06 00:00:00', NULL, '2001-02-03 00:00:00', NULL, 1, 0, '9846414761', 0, 'NA', 'Joy', NULL, 0x53534c432c20506c75732054776f, 0x4e41, '1 Year experiencce as tele Caller in Job consultancy', 'no', '', '', '', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (993, NULL, 'RD00361', 0, NULL, NULL, 4, 0, NULL, 0, NULL, 'Sunil Kumar T K', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 'Sunil Kumar', 'T K', NULL, 'NA', 'NA', '8714186174', NULL, NULL, 'Thittethara, Nettoor P.O, Nettoor S.O, Ernakulam, Kerala - 682040', 'Thittethara, Nettoor P.O, Nettoor S.O, Ernakulam, Kerala - 682040', '', 'Kerala', 2, NULL, 'India', NULL, NULL, 590, NULL, '2023-02-16 12:24:06', 0, 0, 0, 0, 0, 'https://bit.ly/3I5ix9l', NULL, 0, NULL, NULL, '2023-01-30 00:00:00', NULL, '1973-05-08 00:00:00', NULL, 1, 0, '9746138463', 1, 'Sangeetha K V', 'T U Krishnan', '2003-09-14', 0x53534c432c20495443, '', '1. Merc Motors & Services - AC technician 2. Hyundai - AC Technician 3. Govt approved workshop - Electrical technician', 'yes', '31538340752', NULL, 'SBIN00013224', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
@@ -8598,7 +8598,7 @@ INSERT INTO `cpnl_users` (`usr_id`, `usr_caller_id`, `usr_emp_code`, `usr_design
 (1099, NULL, 'RD00416', 53, NULL, NULL, 4, 0, NULL, 0, NULL, 'Peter  Martin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 'Peter ', 'Martin', NULL, '', '', ' 9544336344', NULL, NULL, ' Karivelithundyil (H),Kaloor,Kochi-17 ', ' Karivelithundyil (H),Kaloor,Kochi-17 ', 'Kochi', 'Kerala', 2, '', 'India', NULL, NULL, 590, NULL, '2023-06-08 10:29:47', 0, 0, 0, 0, 0, 'https://bit.ly/43KzyyI', NULL, 0, NULL, ' Petermartin5551@gmail.com', '2023-06-07 00:00:00', NULL, '1999-07-17 00:00:00', NULL, 1, 0, '', 0, '', 'Martin', NULL, 0x53534c432c20486967686572205365636f6e646172792c204469706c6f6d6120696e20416e696d6174696f6e, '', '1. 1 Year Experience in Graphic designing. 2. 6 Months Experience as auto service technician 3. 2 Year Experience as driver at Naval base Kochi 4.  1 Year Experience as driver at Quality Control, Kerala PWD, Kakkanad. 5. 1 Year Experience as Driver at Kerala Road Fund Board Govt. of Kerala undertaking, Ernakulam', '', '', '', '', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (1100, NULL, 'RD00419', 18, NULL, NULL, 2, 0, 949, 8, 0x6797bd88, 'Sarath Lal', 'd93a11d7da2336fd044c4fada2496bb64f3964de', NULL, 'sarathlal@royaldrive.in', NULL, NULL, NULL, NULL, 1687846514, 1695735587, 1, 'Sarath Lal', 'Lal', NULL, '8943869090', '8943869090', '9567857073', NULL, NULL, 'Kuttan Smrithi House, Villoonniyal, Tenhippalam, Malappuram, Kerala - 673636', 'Kuttan Smrithi House, Villoonniyal, Tenhippalam, Malappuram, Kerala - 673636', 'Malappuram', 'Kerala', 9, NULL, 'India', NULL, NULL, 100, 100, '2023-06-27 06:15:14', 8, 6, 6, 0, 1, 'https://bit.ly/3NqhzHb', NULL, 0, NULL, NULL, '2023-06-15 00:00:00', NULL, NULL, NULL, 0, 0, NULL, 0, NULL, 'Chinnakuttan K', NULL, NULL, NULL, '2014-2015-Salees executive-popular motors, 1-16 to 6-16-sales executive-bluemountain auto royal enfield, 2016-2020 CRT Manager bluemountain autos- royal enfeild', NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (1101, NULL, 'RD00424', 53, NULL, NULL, 4, 0, NULL, 0, NULL, 'Muhammed  Mahafoos', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 'Muhammed', ' Mahafoos', NULL, '9645259090', '9645259090', '7510112298', NULL, NULL, 'Anugraham,Ayikkarappadi P.O, Cherukavu, Malappuram', 'Anugraham,Ayikkarappadi P.O, Cherukavu, Malappuram', 'Cherukavu', 'Kerala', 9, NULL, 'India', NULL, NULL, 1049, NULL, '2023-07-04 10:33:19', 0, 0, 0, 0, 0, 'https://bit.ly/3pzjxNC', NULL, 0, NULL, NULL, '2023-07-03 00:00:00', NULL, '1983-06-25 00:00:00', NULL, 1, 0, NULL, 1, 'Hasna', 'Saidalavi', '2007-06-16', 0x53534c532c20417574706d6f62696c6520456e67696e656572696e672d204b6572616c6120476f7665726e6d656e742043657274696669636174696f6e204578616d696e6174696f6e2d, NULL, 'Purchase Driver 10 year experinence- Al Rajhi Bank Group', NULL, NULL, '67042207307', NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
-(1102, NULL, 'RD00422', 18, NULL, NULL, 1, 0, 966, 8, NULL, 'Vishnu E N', '2904a0592817e67e240be03dcddc133beeb41550', NULL, 'vishnumpm@rdsmart.in', NULL, NULL, NULL, NULL, NULL, 1695790550, 1, 'Vishnu E N', 'E N', NULL, '8594016060', '8594016060', '7012186914', NULL, NULL, ' Earathara House, perikkad, Eroor West P.O Tripunithura Nadama Village, Eroor, Ernakulam', ' Earathara House, perikkad, Eroor West P.O Tripunithura Nadama Village, Eroor, Ernakulam', 'Tripunithura ', 'Kerala', 2, NULL, 'India', NULL, NULL, 1049, 100, '2023-07-05 10:14:57', 8, 7, 4, 0, 1, 'https://bit.ly/44cDSY5', NULL, 0, NULL, NULL, '2023-06-26 00:00:00', NULL, '1997-08-14 00:00:00', NULL, 1, 0, NULL, 0, NULL, 'Nabo Kumar', '2023-07-05', 0x53534c432c20486967686572205365636f6e646172792c20486f74656c204d616e6167656d656e74, NULL, 'two and half year experience as sales executive at popular hyundai, one and half year experience as sales executive at indus motor\'s thevara, one year experience office assistant at supreme enterprises chittoor', NULL, NULL, '99980104516096', 'FDRL0002004', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
+(1102, NULL, 'RD00422', 18, NULL, NULL, 1, 0, 966, 8, NULL, 'Vishnu E N', '2904a0592817e67e240be03dcddc133beeb41550', NULL, 'vishnumpm@rdsmart.in', NULL, NULL, NULL, NULL, NULL, 1695790550, 1, 'Vishnu E N', 'E N', NULL, '8594016060', '8594016060', '7012186914', NULL, NULL, ' Earathara House, perikkad, Eroor West P.O Tripunithura Nadama Village, Eroor, Ernakulam', ' Earathara House, perikkad, Eroor West P.O Tripunithura Nadama Village, Eroor, Ernakulam', 'Tripunithura ', 'Kerala', 2, NULL, 'India', NULL, NULL, 1049, 100, '2023-07-05 10:14:57', 8, 7, 4, 0, 1, 'https://bit.ly/44cDSY5', NULL, 0, NULL, NULL, '2023-06-26 00:00:00', NULL, '1997-08-14 00:00:00', NULL, 1, 0, NULL, 0, NULL, 'Nabo Kumar', '2023-07-05', 0x53534c432c20486967686572205365636f6e646172792c20486f74656c204d616e6167656d656e74, NULL, 'two and half year experience as sales executive at popular hyundai, one and half year experience as sales executive at indus motor"s thevara, one year experience office assistant at supreme enterprises chittoor', NULL, NULL, '99980104516096', 'FDRL0002004', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (11005, NULL, NULL, 14, NULL, NULL, 4, 0, 870, 27, 0x674e12b3, 'Roshna', '9b96901dc7b109a03ab6c9724885dec5108b83a3', NULL, 'roshna@royaldrive.in', NULL, NULL, NULL, NULL, 1690886200, 1692770629, 0, 'Roshna', 'Roshna', NULL, '917902729090', '917902729090', NULL, NULL, NULL, 'Unknown', NULL, '327', '59', 216, NULL, '41', NULL, NULL, 100, NULL, '2023-08-01 10:36:40', 11, 6, 0, 0, 0, 'https://bit.ly/47aFsf4', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (11001, NULL, 'RD00432', 18, NULL, NULL, 1, 0, 902, 8, NULL, 'Sajitha  Moonnookaran', 'c4f850e7bbb05d7ac5ac716cdbad0f9b5b94c715', NULL, 'sajitha@royaldrive.in', NULL, NULL, NULL, NULL, NULL, 1695786471, 1, 'Sajitha ', 'Moonnookaran', NULL, '7356226060', '7356226060', '8907307356', NULL, NULL, 'Moonnookkaran House, Pattarkadavu P.O Malappuram Pin- 679321', 'Moonnookkaran House, Pattarkadavu P.O Malappuram Pin- 679321', 'Pattarkadavu', 'Kerala', 9, '', 'India', NULL, NULL, 1049, 100, '2023-07-24 06:23:06', 8, 7, 4, 0, 1, 'https://bit.ly/44J8VLC', NULL, 0, NULL, '', '2023-07-20 00:00:00', NULL, '1987-05-26 00:00:00', NULL, 1, 0, '9995691098', 1, 'Zakkariya', 'Ibrahim', '2005-02-27', 0x53534c432c20506c75732054776f, 0x4e6f, 'AM Motors- Lobby Hostess- 1 Year, AM Motors- DMS Executive- 1 Year, AM Motors- Customer Care Executive- 3 and Half Yrear', 'Yes', '', '074901506004', 'ICIC0000749', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
 (1104, NULL, 'RD00427', 53, NULL, NULL, 4, 0, NULL, 0, NULL, 'Shihas M', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, 'Shihas', 'M', NULL, '9645289090', '9645289090', '9495694326', NULL, NULL, 'Valiyapazhangattu (H),PATTANAKKAD P O,CHERTHALA,ALAPPUZHA PIN 688531', 'Valiyapazhangattu (H),PATTANAKKAD P O,CHERTHALA,ALAPPUZHA PIN 688531', 'Pattanakkad', 'Kerala', 1, '', 'India', NULL, NULL, 1049, NULL, '2023-07-11 10:02:10', 0, 0, 0, 0, 0, 'https://bit.ly/3DepJh3', NULL, 0, NULL, '', '2023-07-07 00:00:00', NULL, '1990-07-13 00:00:00', NULL, 1, 0, '', 0, '', 'Muhammed Kunju', NULL, 0x53534c432c20504c75732054776f2c20477261706869632044657369676e, '', '4 Year experiance in gulf recruiting travel agency cochin (Elamkulam)-2010-2014, 31/2 worked- DDC lab at Thripunithura 2014-2017, worked in a premium cars service Nettoor, driven experiance in all premium brands car ', '', '', '', '', NULL, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, 0, NULL),
@@ -11618,7 +11618,7 @@ INSERT INTO `cpnl_vehicle_colors` (`vc_id`, `vc_color`, `vc_sort_order`, `vc_add
 -- --------------------------------------------------------
 
 --
--- Table structure for table `cpnl_vehicle_features`
+-- Table structure for table `cpnl_vehicle_features
 --
 
 CREATE TABLE `cpnl_vehicle_features` (
@@ -11723,413 +11723,6 @@ CREATE TABLE `cpnl_vehicle_status_tmp` (
   `tvs_added_by` int(11) NOT NULL,
   `tvs_status` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_all_vehicle_status`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_all_vehicle_status` (
-`vst_vehicle_id` int(11)
-,`vst_status` int(11)
-,`vst_all_statuses` text
-,`vst_current_status` varchar(256)
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_enquiry_vehicle_master`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_enquiry_vehicle_master` (
-`veh_id` int(11)
-,`veh_stock_id` int(11)
-,`veh_showroom_id` int(11)
-,`veh_enq_id` int(11)
-,`veh_brand` int(11)
-,`veh_model` int(11)
-,`veh_varient` int(11)
-,`veh_year` int(11)
-,`veh_color` varchar(100)
-,`veh_owner` varchar(100)
-,`veh_fuel` int(11)
-,`veh_reg` varchar(255)
-,`veh_price_from` int(11)
-,`veh_price_to` int(11)
-,`veh_km_from` int(11)
-,`veh_km_to` int(11)
-,`veh_chassis_number` varchar(255)
-,`veh_remarks` text
-,`veh_exch_cus_expect` int(11)
-,`veh_exch_estimate` int(11)
-,`veh_exch_dealer_value` int(11)
-,`veh_status` int(11)
-,`veh_delete` int(1)
-,`veh_added_by` int(11)
-,`vst_vehicle_id` int(11)
-,`vst_status` int(11)
-,`vst_all_statuses` text
-,`vst_current_status` varchar(256)
-,`brd_id` int(11)
-,`brd_parent` int(11)
-,`brd_section` int(11)
-,`brd_title` varchar(255)
-,`brd_url` text
-,`brd_logo` text
-,`brd_desc` text
-,`brd_status` tinyint(1)
-,`brd_date` timestamp
-,`brd_sort_order` int(11)
-,`var_id` int(11)
-,`var_model_id` int(11)
-,`var_brand_id` int(11)
-,`var_variant_name` text
-,`var_model_desc` text
-,`var_model_slug` text
-,`var_added_date` timestamp
-,`mod_id` int(11)
-,`mod_brand` int(11)
-,`mod_title` text
-,`mod_desc` text
-,`mod_product_slug` text
-,`mod_added_date` timestamp
-,`enq_id` int(11)
-,`enq_showroom_id` int(11)
-,`enq_entry_date` datetime
-,`enq_se_id` int(11)
-,`enq_mode_enq` int(11)
-,`enq_location` text
-,`enq_cus_name` varchar(100)
-,`enq_cus_address` text
-,`enq_cus_mobile` varchar(255)
-,`enq_cus_remarks` text
-,`enq_cus_email` varchar(255)
-,`enq_cus_whatsapp` varchar(255)
-,`enq_cus_fbid` varchar(255)
-,`enq_cus_age_group` varchar(255)
-,`enq_cus_occu` int(11)
-,`enq_cus_company` varchar(255)
-,`enq_cus_phone_res` varchar(255)
-,`enq_cus_pin` int(10)
-,`enq_cus_city` int(11)
-,`enq_cus_dist` int(11)
-,`enq_cus_state` int(11)
-,`enq_cus_country` int(11)
-,`enq_cus_presenet_vehicle` varchar(255)
-,`enq_cus_family_members` int(3)
-,`enq_cus_vehicle_user` varchar(255)
-,`enq_cus_money` varchar(255)
-,`enq_cus_authority` varchar(255)
-,`enq_cus_need` varchar(255)
-,`enq_cus_when_buy` int(11)
-,`enq_cus_test_drive` int(11)
-,`enq_cus_home_visit` tinyint(1)
-,`enq_cus_loan_perc` varchar(255)
-,`enq_cus_loan_amount` int(11)
-,`enq_cus_loan_emi` int(11)
-,`enq_cus_loan_period` int(11)
-,`enq_cus_status` int(11)
-,`enq_current_status` int(11)
-,`enq_current_status_history` int(11)
-,`enq_budget` varchar(200)
-,`enq_vehicle_type` int(11)
-,`enq_delete` tinyint(1)
-,`enq_added_by` int(11)
-,`enq_added_on` timestamp
-,`enq_next_foll_date` timestamp
-,`enq_is_already_exists` tinyint(1)
-,`enq_customer_grade` int(11)
-,`enq_customer_grade_verify_by` int(11)
-,`enq_last_viewd` int(11)
-,`enq_punched_by` int(11)
-,`enq_reassigned_by` int(1)
-,`enq_ref_name` varchar(255)
-,`enq_ref_phone` varchar(255)
-,`enq_sms_sent` int(1)
-,`enq_cus_valid_mobile` varchar(10)
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_followup_current_status`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_followup_current_status` (
-`foll_id` int(11)
-,`foll_parent` int(11)
-,`foll_cus_id` int(11)
-,`foll_showroom` int(11)
-,`foll_sales_staff` int(11)
-,`foll_cus_vehicle_id` int(11)
-,`foll_entry_date` datetime
-,`foll_status` int(11)
-,`foll_remarks` text
-,`foll_customer_feedback` text
-,`foll_can_show_all` tinyint(1)
-,`foll_access_usr_id` text
-,`foll_access_grp_id` text
-,`foll_msg_read` text
-,`foll_customer_feedback_added_date` datetime
-,`foll_contact` text
-,`foll_action_plan` text
-,`foll_next_foll_date` datetime
-,`foll_added_by` int(11)
-,`foll_updated_by` int(11)
-,`foll_is_dar_submited` tinyint(1)
-,`foll_is_cmnt` tinyint(1)
-,`fol_t` int(1)
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_valuation_master`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_valuation_master` (
-`val_id` bigint(11)
-,`val_enquiry_id` int(11)
-,`val_veh_no` varchar(100)
-,`val_showroom` int(11)
-,`val_brand` int(11)
-,`val_model` int(11)
-,`val_variant` int(11)
-,`val_fuel` int(11)
-,`val_type` int(11)
-,`val_color` int(11)
-,`val_km` int(11)
-,`val_transmission` int(11)
-,`val_manf_date` varchar(50)
-,`val_delv_date` datetime
-,`val_reg_date` datetime
-,`val_price_cus_exp` int(11)
-,`val_price_market_est` int(11)
-,`val_price_dealer` int(11)
-,`val_price_rd_from` int(11)
-,`val_price_rd_to` int(11)
-,`val_eng_cc` int(11)
-,`val_milage` float
-,`val_no_of_owner` int(11)
-,`val_no_of_seats` int(11)
-,`val_camera_fine` int(11)
-,`val_engine_no` varchar(100)
-,`val_chasis_no` varchar(100)
-,`val_finance` int(11)
-,`val_finance_remark` text
-,`val_insurance` int(11)
-,`val_insurance_validity` datetime
-,`val_insurance_idv` int(11)
-,`val_tyre_1` int(11)
-,`val_tyre_2` int(11)
-,`val_tyre_3` int(11)
-,`val_tyre_4` int(11)
-,`val_tyre_5` int(11)
-,`val_replace` int(11)
-,`val_replace_remarks` text
-,`val_last_service` datetime
-,`val_last_service_km` int(11)
-,`val_document_details` text
-,`val_remarks` text
-,`val_added_by` int(11)
-,`val_added_date` timestamp
-,`val_updated_by` int(11)
-,`val_status` int(1)
-,`val_is_booked` tinyint(1)
-,`val_is_sold` int(1)
-,`val_sold_date` timestamp
-,`val_all_statuses` text
-,`val_current_status` varchar(256)
-,`brd_id` int(11)
-,`brd_parent` int(11)
-,`brd_section` int(11)
-,`brd_title` varchar(255)
-,`brd_url` text
-,`brd_logo` text
-,`brd_desc` text
-,`brd_status` tinyint(1)
-,`brd_date` timestamp
-,`brd_sort_order` int(11)
-,`var_id` int(11)
-,`var_model_id` int(11)
-,`var_brand_id` int(11)
-,`var_variant_name` text
-,`var_model_desc` text
-,`var_model_slug` text
-,`var_added_date` timestamp
-,`mod_id` int(11)
-,`mod_brand` int(11)
-,`mod_title` text
-,`mod_desc` text
-,`mod_product_slug` text
-,`mod_added_date` timestamp
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_valuation_statuses`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_valuation_statuses` (
-`est_valuation_id` bigint(11)
-,`val_all_statuses` text
-,`val_current_status` varchar(256)
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_vehicle_vehicle_status`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_vehicle_vehicle_status` (
-`veh_id` int(11)
-,`veh_stock_id` int(11)
-,`veh_showroom_id` int(11)
-,`veh_enq_id` int(11)
-,`veh_brand` int(11)
-,`veh_model` int(11)
-,`veh_varient` int(11)
-,`veh_year` int(11)
-,`veh_color` varchar(100)
-,`veh_owner` varchar(100)
-,`veh_fuel` int(11)
-,`veh_reg` varchar(255)
-,`veh_price_from` int(11)
-,`veh_price_to` int(11)
-,`veh_km_from` int(11)
-,`veh_km_to` int(11)
-,`veh_km_id` int(11)
-,`veh_chassis_number` varchar(255)
-,`veh_remarks` text
-,`veh_exch_cus_expect` int(11)
-,`veh_exch_estimate` int(11)
-,`veh_exch_dealer_value` int(11)
-,`veh_status` int(11)
-,`veh_delete` int(1)
-,`veh_added_by` int(11)
-,`veh_delivery_date` varchar(100)
-,`veh_first_reg` varchar(100)
-,`veh_manf_year` int(5)
-,`veh_ac` int(11)
-,`veh_ac_zone` int(5)
-,`veh_cc` int(11)
-,`veh_vehicle_type` int(11)
-,`veh_engine_num` varchar(255)
-,`veh_transmission` int(1)
-,`veh_seat_no` int(1)
-,`vst_vehicle_id` int(11)
-,`vst_status` int(11)
-,`vst_all_statuses` text
-,`vst_current_status` varchar(256)
-,`brd_id` int(11)
-,`brd_category` int(11)
-,`brd_parent` int(11)
-,`brd_section` int(11)
-,`brd_title` varchar(255)
-,`brd_slug` varchar(255)
-,`brd_hash_tag` text
-,`brd_url` text
-,`brd_logo` text
-,`brd_desc` text
-,`brd_status` tinyint(1)
-,`brd_date` timestamp
-,`brd_sort_order` int(11)
-,`brd_added_by` int(11)
-,`brd_added_on` datetime
-,`var_id` int(11)
-,`var_model_id` int(11)
-,`var_brand_id` int(11)
-,`var_variant_name` text
-,`var_model_desc` text
-,`var_model_slug` text
-,`var_added_date` timestamp
-,`var_added_by` int(11)
-,`var_added_on` datetime
-,`var_is_ev` tinyint(1)
-,`mod_id` int(11)
-,`mod_is_ev` tinyint(1)
-,`mod_brand` int(11)
-,`mod_title` text
-,`mod_desc` text
-,`mod_product_slug` text
-,`mod_added_date` timestamp
-,`mod_added_by` int(11)
-,`mod_added_on` datetime
-);
-
--- --------------------------------------------------------
-
---
--- Stand-in structure for view `cpnl_view_vehicle_vehicle_status_old`
--- (See below for the actual view)
---
-CREATE TABLE `cpnl_view_vehicle_vehicle_status_old` (
-`veh_id` int(11)
-,`veh_stock_id` int(11)
-,`veh_showroom_id` int(11)
-,`veh_enq_id` int(11)
-,`veh_brand` int(11)
-,`veh_model` int(11)
-,`veh_varient` int(11)
-,`veh_year` int(11)
-,`veh_color` varchar(100)
-,`veh_owner` varchar(100)
-,`veh_fuel` int(11)
-,`veh_reg` varchar(255)
-,`veh_price_from` int(11)
-,`veh_price_to` int(11)
-,`veh_km_from` int(11)
-,`veh_km_to` int(11)
-,`veh_chassis_number` varchar(255)
-,`veh_remarks` text
-,`veh_exch_cus_expect` int(11)
-,`veh_exch_estimate` int(11)
-,`veh_exch_dealer_value` int(11)
-,`veh_status` int(11)
-,`veh_delete` int(1)
-,`veh_added_by` int(11)
-,`veh_delivery_date` varchar(100)
-,`veh_first_reg` varchar(100)
-,`veh_manf_year` int(5)
-,`veh_ac` int(11)
-,`veh_ac_zone` int(5)
-,`veh_cc` int(11)
-,`veh_vehicle_type` int(11)
-,`veh_engine_num` varchar(255)
-,`veh_transmission` int(1)
-,`veh_seat_no` int(1)
-,`vst_vehicle_id` int(11)
-,`vst_status` int(11)
-,`vst_all_statuses` text
-,`vst_current_status` varchar(256)
-,`brd_id` int(11)
-,`brd_parent` int(11)
-,`brd_section` int(11)
-,`brd_title` varchar(255)
-,`brd_url` text
-,`brd_logo` text
-,`brd_desc` text
-,`brd_status` tinyint(1)
-,`brd_date` timestamp
-,`brd_sort_order` int(11)
-,`var_id` int(11)
-,`var_model_id` int(11)
-,`var_brand_id` int(11)
-,`var_variant_name` text
-,`var_model_desc` text
-,`var_model_slug` text
-,`var_added_date` timestamp
-,`mod_id` int(11)
-,`mod_brand` int(11)
-,`mod_title` text
-,`mod_desc` text
-,`mod_product_slug` text
-,`mod_added_date` timestamp
-);
 
 -- --------------------------------------------------------
 
@@ -17982,68 +17575,6 @@ CREATE TABLE `test` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_all_vehicle_status`
---
-DROP TABLE IF EXISTS `cpnl_view_all_vehicle_status`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`myultrab`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_all_vehicle_status`  AS SELECT `cpnl_vehicle_status`.`vst_vehicle_id` AS `vst_vehicle_id`, `cpnl_vehicle_status`.`vst_status` AS `vst_status`, group_concat(concat('{',`cpnl_vehicle_status`.`vst_status`,'}') separator ',') AS `vst_all_statuses`, substring_index(convert(group_concat(`cpnl_vehicle_status`.`vst_status` order by `cpnl_vehicle_status`.`vst_id` DESC separator ',') using utf8mb4),',',1) AS `vst_current_status` FROM `cpnl_vehicle_status` GROUP BY `cpnl_vehicle_status`.`vst_vehicle_id` ORDER BY `cpnl_vehicle_status`.`vst_id` DESC ;
-
--- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_enquiry_vehicle_master`
---
-DROP TABLE IF EXISTS `cpnl_view_enquiry_vehicle_master`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`myultrab`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_enquiry_vehicle_master`  AS SELECT `cpnl_vehicle`.`veh_id` AS `veh_id`, `cpnl_vehicle`.`veh_stock_id` AS `veh_stock_id`, `cpnl_vehicle`.`veh_showroom_id` AS `veh_showroom_id`, `cpnl_vehicle`.`veh_enq_id` AS `veh_enq_id`, `cpnl_vehicle`.`veh_brand` AS `veh_brand`, `cpnl_vehicle`.`veh_model` AS `veh_model`, `cpnl_vehicle`.`veh_varient` AS `veh_varient`, `cpnl_vehicle`.`veh_year` AS `veh_year`, `cpnl_vehicle`.`veh_color` AS `veh_color`, `cpnl_vehicle`.`veh_owner` AS `veh_owner`, `cpnl_vehicle`.`veh_fuel` AS `veh_fuel`, `cpnl_vehicle`.`veh_reg` AS `veh_reg`, `cpnl_vehicle`.`veh_price_from` AS `veh_price_from`, `cpnl_vehicle`.`veh_price_to` AS `veh_price_to`, `cpnl_vehicle`.`veh_km_from` AS `veh_km_from`, `cpnl_vehicle`.`veh_km_to` AS `veh_km_to`, `cpnl_vehicle`.`veh_chassis_number` AS `veh_chassis_number`, `cpnl_vehicle`.`veh_remarks` AS `veh_remarks`, `cpnl_vehicle`.`veh_exch_cus_expect` AS `veh_exch_cus_expect`, `cpnl_vehicle`.`veh_exch_estimate` AS `veh_exch_estimate`, `cpnl_vehicle`.`veh_exch_dealer_value` AS `veh_exch_dealer_value`, `cpnl_vehicle`.`veh_status` AS `veh_status`, `cpnl_vehicle`.`veh_delete` AS `veh_delete`, `cpnl_vehicle`.`veh_added_by` AS `veh_added_by`, `cpnl_view_all_vehicle_status`.`vst_vehicle_id` AS `vst_vehicle_id`, `cpnl_view_all_vehicle_status`.`vst_status` AS `vst_status`, `cpnl_view_all_vehicle_status`.`vst_all_statuses` AS `vst_all_statuses`, `cpnl_view_all_vehicle_status`.`vst_current_status` AS `vst_current_status`, `rana_brand`.`brd_id` AS `brd_id`, `rana_brand`.`brd_parent` AS `brd_parent`, `rana_brand`.`brd_section` AS `brd_section`, `rana_brand`.`brd_title` AS `brd_title`, `rana_brand`.`brd_url` AS `brd_url`, `rana_brand`.`brd_logo` AS `brd_logo`, `rana_brand`.`brd_desc` AS `brd_desc`, `rana_brand`.`brd_status` AS `brd_status`, `rana_brand`.`brd_date` AS `brd_date`, `rana_brand`.`brd_sort_order` AS `brd_sort_order`, `rana_variant`.`var_id` AS `var_id`, `rana_variant`.`var_model_id` AS `var_model_id`, `rana_variant`.`var_brand_id` AS `var_brand_id`, `rana_variant`.`var_variant_name` AS `var_variant_name`, `rana_variant`.`var_model_desc` AS `var_model_desc`, `rana_variant`.`var_model_slug` AS `var_model_slug`, `rana_variant`.`var_added_date` AS `var_added_date`, `rana_model`.`mod_id` AS `mod_id`, `rana_model`.`mod_brand` AS `mod_brand`, `rana_model`.`mod_title` AS `mod_title`, `rana_model`.`mod_desc` AS `mod_desc`, `rana_model`.`mod_product_slug` AS `mod_product_slug`, `rana_model`.`mod_added_date` AS `mod_added_date`, `cpnl_enquiry`.`enq_id` AS `enq_id`, `cpnl_enquiry`.`enq_showroom_id` AS `enq_showroom_id`, `cpnl_enquiry`.`enq_entry_date` AS `enq_entry_date`, `cpnl_enquiry`.`enq_se_id` AS `enq_se_id`, `cpnl_enquiry`.`enq_mode_enq` AS `enq_mode_enq`, `cpnl_enquiry`.`enq_location` AS `enq_location`, `cpnl_enquiry`.`enq_cus_name` AS `enq_cus_name`, `cpnl_enquiry`.`enq_cus_address` AS `enq_cus_address`, `cpnl_enquiry`.`enq_cus_mobile` AS `enq_cus_mobile`, `cpnl_enquiry`.`enq_cus_remarks` AS `enq_cus_remarks`, `cpnl_enquiry`.`enq_cus_email` AS `enq_cus_email`, `cpnl_enquiry`.`enq_cus_whatsapp` AS `enq_cus_whatsapp`, `cpnl_enquiry`.`enq_cus_fbid` AS `enq_cus_fbid`, `cpnl_enquiry`.`enq_cus_age_group` AS `enq_cus_age_group`, `cpnl_enquiry`.`enq_cus_occu` AS `enq_cus_occu`, `cpnl_enquiry`.`enq_cus_company` AS `enq_cus_company`, `cpnl_enquiry`.`enq_cus_phone_res` AS `enq_cus_phone_res`, `cpnl_enquiry`.`enq_cus_pin` AS `enq_cus_pin`, `cpnl_enquiry`.`enq_cus_city` AS `enq_cus_city`, `cpnl_enquiry`.`enq_cus_dist` AS `enq_cus_dist`, `cpnl_enquiry`.`enq_cus_state` AS `enq_cus_state`, `cpnl_enquiry`.`enq_cus_country` AS `enq_cus_country`, `cpnl_enquiry`.`enq_cus_presenet_vehicle` AS `enq_cus_presenet_vehicle`, `cpnl_enquiry`.`enq_cus_family_members` AS `enq_cus_family_members`, `cpnl_enquiry`.`enq_cus_vehicle_user` AS `enq_cus_vehicle_user`, `cpnl_enquiry`.`enq_cus_money` AS `enq_cus_money`, `cpnl_enquiry`.`enq_cus_authority` AS `enq_cus_authority`, `cpnl_enquiry`.`enq_cus_need` AS `enq_cus_need`, `cpnl_enquiry`.`enq_cus_when_buy` AS `enq_cus_when_buy`, `cpnl_enquiry`.`enq_cus_test_drive` AS `enq_cus_test_drive`, `cpnl_enquiry`.`enq_cus_home_visit` AS `enq_cus_home_visit`, `cpnl_enquiry`.`enq_cus_loan_perc` AS `enq_cus_loan_perc`, `cpnl_enquiry`.`enq_cus_loan_amount` AS `enq_cus_loan_amount`, `cpnl_enquiry`.`enq_cus_loan_emi` AS `enq_cus_loan_emi`, `cpnl_enquiry`.`enq_cus_loan_period` AS `enq_cus_loan_period`, `cpnl_enquiry`.`enq_cus_status` AS `enq_cus_status`, `cpnl_enquiry`.`enq_current_status` AS `enq_current_status`, `cpnl_enquiry`.`enq_current_status_history` AS `enq_current_status_history`, `cpnl_enquiry`.`enq_budget` AS `enq_budget`, `cpnl_enquiry`.`enq_vehicle_type` AS `enq_vehicle_type`, `cpnl_enquiry`.`enq_delete` AS `enq_delete`, `cpnl_enquiry`.`enq_added_by` AS `enq_added_by`, `cpnl_enquiry`.`enq_added_on` AS `enq_added_on`, `cpnl_enquiry`.`enq_next_foll_date` AS `enq_next_foll_date`, `cpnl_enquiry`.`enq_is_already_exists` AS `enq_is_already_exists`, `cpnl_enquiry`.`enq_customer_grade` AS `enq_customer_grade`, `cpnl_enquiry`.`enq_customer_grade_verify_by` AS `enq_customer_grade_verify_by`, `cpnl_enquiry`.`enq_last_viewd` AS `enq_last_viewd`, `cpnl_enquiry`.`enq_punched_by` AS `enq_punched_by`, `cpnl_enquiry`.`enq_reassigned_by` AS `enq_reassigned_by`, `cpnl_enquiry`.`enq_ref_name` AS `enq_ref_name`, `cpnl_enquiry`.`enq_ref_phone` AS `enq_ref_phone`, `cpnl_enquiry`.`enq_sms_sent` AS `enq_sms_sent`, right(`cpnl_enquiry`.`enq_cus_mobile`,10) AS `enq_cus_valid_mobile` FROM (((((`cpnl_vehicle` left join `cpnl_view_all_vehicle_status` on((`cpnl_view_all_vehicle_status`.`vst_vehicle_id` = `cpnl_vehicle`.`veh_id`))) left join `rana_brand` on((`rana_brand`.`brd_id` = `cpnl_vehicle`.`veh_brand`))) left join `rana_model` on((`rana_model`.`mod_id` = `cpnl_vehicle`.`veh_model`))) left join `rana_variant` on((`rana_variant`.`var_id` = `cpnl_vehicle`.`veh_varient`))) left join `cpnl_enquiry` on((`cpnl_enquiry`.`enq_id` = `cpnl_vehicle`.`veh_enq_id`))) ;
-
--- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_followup_current_status`
---
-DROP TABLE IF EXISTS `cpnl_view_followup_current_status`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`myultrab`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_followup_current_status`  AS SELECT `cpnl_followup`.`foll_id` AS `foll_id`, `cpnl_followup`.`foll_parent` AS `foll_parent`, `cpnl_followup`.`foll_cus_id` AS `foll_cus_id`, `cpnl_followup`.`foll_showroom` AS `foll_showroom`, `cpnl_followup`.`foll_sales_staff` AS `foll_sales_staff`, `cpnl_followup`.`foll_cus_vehicle_id` AS `foll_cus_vehicle_id`, `cpnl_followup`.`foll_entry_date` AS `foll_entry_date`, `cpnl_followup`.`foll_status` AS `foll_status`, `cpnl_followup`.`foll_remarks` AS `foll_remarks`, `cpnl_followup`.`foll_customer_feedback` AS `foll_customer_feedback`, `cpnl_followup`.`foll_can_show_all` AS `foll_can_show_all`, `cpnl_followup`.`foll_access_usr_id` AS `foll_access_usr_id`, `cpnl_followup`.`foll_access_grp_id` AS `foll_access_grp_id`, `cpnl_followup`.`foll_msg_read` AS `foll_msg_read`, `cpnl_followup`.`foll_customer_feedback_added_date` AS `foll_customer_feedback_added_date`, `cpnl_followup`.`foll_contact` AS `foll_contact`, `cpnl_followup`.`foll_action_plan` AS `foll_action_plan`, `cpnl_followup`.`foll_next_foll_date` AS `foll_next_foll_date`, `cpnl_followup`.`foll_added_by` AS `foll_added_by`, `cpnl_followup`.`foll_updated_by` AS `foll_updated_by`, `cpnl_followup`.`foll_is_dar_submited` AS `foll_is_dar_submited`, `cpnl_followup`.`foll_is_cmnt` AS `foll_is_cmnt`, `cpnl_followup`.`fol_t` AS `fol_t` FROM `cpnl_followup` WHERE `cpnl_followup`.`foll_id` in (select max(`cpnl_followup`.`foll_id`) AS `foll_id` from `cpnl_followup` group by `cpnl_followup`.`foll_cus_id`) ;
-
--- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_valuation_master`
---
-DROP TABLE IF EXISTS `cpnl_view_valuation_master`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`myultrab`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_valuation_master`  AS SELECT `cpnl_valuation`.`val_id` AS `val_id`, `cpnl_valuation`.`val_enquiry_id` AS `val_enquiry_id`, `cpnl_valuation`.`val_veh_no` AS `val_veh_no`, `cpnl_valuation`.`val_showroom` AS `val_showroom`, `cpnl_valuation`.`val_brand` AS `val_brand`, `cpnl_valuation`.`val_model` AS `val_model`, `cpnl_valuation`.`val_variant` AS `val_variant`, `cpnl_valuation`.`val_fuel` AS `val_fuel`, `cpnl_valuation`.`val_type` AS `val_type`, `cpnl_valuation`.`val_color` AS `val_color`, `cpnl_valuation`.`val_km` AS `val_km`, `cpnl_valuation`.`val_transmission` AS `val_transmission`, `cpnl_valuation`.`val_manf_date` AS `val_manf_date`, `cpnl_valuation`.`val_delv_date` AS `val_delv_date`, `cpnl_valuation`.`val_reg_date` AS `val_reg_date`, `cpnl_valuation`.`val_price_cus_exp` AS `val_price_cus_exp`, `cpnl_valuation`.`val_price_market_est` AS `val_price_market_est`, `cpnl_valuation`.`val_price_dealer` AS `val_price_dealer`, `cpnl_valuation`.`val_price_rd_from` AS `val_price_rd_from`, `cpnl_valuation`.`val_price_rd_to` AS `val_price_rd_to`, `cpnl_valuation`.`val_eng_cc` AS `val_eng_cc`, `cpnl_valuation`.`val_milage` AS `val_milage`, `cpnl_valuation`.`val_no_of_owner` AS `val_no_of_owner`, `cpnl_valuation`.`val_no_of_seats` AS `val_no_of_seats`, `cpnl_valuation`.`val_camera_fine` AS `val_camera_fine`, `cpnl_valuation`.`val_engine_no` AS `val_engine_no`, `cpnl_valuation`.`val_chasis_no` AS `val_chasis_no`, `cpnl_valuation`.`val_finance` AS `val_finance`, `cpnl_valuation`.`val_finance_remark` AS `val_finance_remark`, `cpnl_valuation`.`val_insurance` AS `val_insurance`, `cpnl_valuation`.`val_insurance_validity` AS `val_insurance_validity`, `cpnl_valuation`.`val_insurance_idv` AS `val_insurance_idv`, `cpnl_valuation`.`val_tyre_1` AS `val_tyre_1`, `cpnl_valuation`.`val_tyre_2` AS `val_tyre_2`, `cpnl_valuation`.`val_tyre_3` AS `val_tyre_3`, `cpnl_valuation`.`val_tyre_4` AS `val_tyre_4`, `cpnl_valuation`.`val_tyre_5` AS `val_tyre_5`, `cpnl_valuation`.`val_replace` AS `val_replace`, `cpnl_valuation`.`val_replace_remarks` AS `val_replace_remarks`, `cpnl_valuation`.`val_last_service` AS `val_last_service`, `cpnl_valuation`.`val_last_service_km` AS `val_last_service_km`, `cpnl_valuation`.`val_document_details` AS `val_document_details`, `cpnl_valuation`.`val_remarks` AS `val_remarks`, `cpnl_valuation`.`val_added_by` AS `val_added_by`, `cpnl_valuation`.`val_added_date` AS `val_added_date`, `cpnl_valuation`.`val_updated_by` AS `val_updated_by`, `cpnl_valuation`.`val_status` AS `val_status`, `cpnl_valuation`.`val_is_booked` AS `val_is_booked`, `cpnl_valuation`.`val_is_sold` AS `val_is_sold`, `cpnl_valuation`.`val_sold_date` AS `val_sold_date`, `cpnl_view_valuation_statuses`.`val_all_statuses` AS `val_all_statuses`, ifnull(`cpnl_view_valuation_statuses`.`val_current_status`,0) AS `val_current_status`, `cpnl_brand`.`brd_id` AS `brd_id`, `cpnl_brand`.`brd_parent` AS `brd_parent`, `cpnl_brand`.`brd_section` AS `brd_section`, `cpnl_brand`.`brd_title` AS `brd_title`, `cpnl_brand`.`brd_url` AS `brd_url`, `cpnl_brand`.`brd_logo` AS `brd_logo`, `cpnl_brand`.`brd_desc` AS `brd_desc`, `cpnl_brand`.`brd_status` AS `brd_status`, `cpnl_brand`.`brd_date` AS `brd_date`, `cpnl_brand`.`brd_sort_order` AS `brd_sort_order`, `cpnl_variant`.`var_id` AS `var_id`, `cpnl_variant`.`var_model_id` AS `var_model_id`, `cpnl_variant`.`var_brand_id` AS `var_brand_id`, `cpnl_variant`.`var_variant_name` AS `var_variant_name`, `cpnl_variant`.`var_model_desc` AS `var_model_desc`, `cpnl_variant`.`var_model_slug` AS `var_model_slug`, `cpnl_variant`.`var_added_date` AS `var_added_date`, `cpnl_model`.`mod_id` AS `mod_id`, `cpnl_model`.`mod_brand` AS `mod_brand`, `cpnl_model`.`mod_title` AS `mod_title`, `cpnl_model`.`mod_desc` AS `mod_desc`, `cpnl_model`.`mod_product_slug` AS `mod_product_slug`, `cpnl_model`.`mod_added_date` AS `mod_added_date` FROM ((((`cpnl_valuation` left join `cpnl_view_valuation_statuses` on((`cpnl_view_valuation_statuses`.`est_valuation_id` = `cpnl_valuation`.`val_id`))) left join `cpnl_brand` on((`cpnl_brand`.`brd_id` = `cpnl_valuation`.`val_brand`))) left join `cpnl_model` on((`cpnl_model`.`mod_id` = `cpnl_valuation`.`val_model`))) left join `cpnl_variant` on((`cpnl_variant`.`var_id` = `cpnl_valuation`.`val_variant`))) ;
-
--- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_valuation_statuses`
---
-DROP TABLE IF EXISTS `cpnl_view_valuation_statuses`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`myultrab`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_valuation_statuses`  AS SELECT `cpnl_valuation_status`.`est_valuation_id` AS `est_valuation_id`, group_concat(concat('{',`cpnl_valuation_status`.`est_status`,'}') separator ',') AS `val_all_statuses`, substring_index(convert(group_concat(`cpnl_valuation_status`.`est_status` order by `cpnl_valuation_status`.`est_id` DESC separator ',') using utf8mb4),',',1) AS `val_current_status` FROM `cpnl_valuation_status` ;
-
--- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_vehicle_vehicle_status`
---
-DROP TABLE IF EXISTS `cpnl_view_vehicle_vehicle_status`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`royaldrive`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_vehicle_vehicle_status`  AS SELECT `cpnl_vehicle`.`veh_id` AS `veh_id`, `cpnl_vehicle`.`veh_stock_id` AS `veh_stock_id`, `cpnl_vehicle`.`veh_showroom_id` AS `veh_showroom_id`, `cpnl_vehicle`.`veh_enq_id` AS `veh_enq_id`, `cpnl_vehicle`.`veh_brand` AS `veh_brand`, `cpnl_vehicle`.`veh_model` AS `veh_model`, `cpnl_vehicle`.`veh_varient` AS `veh_varient`, `cpnl_vehicle`.`veh_year` AS `veh_year`, `cpnl_vehicle`.`veh_color` AS `veh_color`, `cpnl_vehicle`.`veh_owner` AS `veh_owner`, `cpnl_vehicle`.`veh_fuel` AS `veh_fuel`, `cpnl_vehicle`.`veh_reg` AS `veh_reg`, `cpnl_vehicle`.`veh_price_from` AS `veh_price_from`, `cpnl_vehicle`.`veh_price_to` AS `veh_price_to`, `cpnl_vehicle`.`veh_km_from` AS `veh_km_from`, `cpnl_vehicle`.`veh_km_to` AS `veh_km_to`, `cpnl_vehicle`.`veh_km_id` AS `veh_km_id`, `cpnl_vehicle`.`veh_chassis_number` AS `veh_chassis_number`, `cpnl_vehicle`.`veh_remarks` AS `veh_remarks`, `cpnl_vehicle`.`veh_exch_cus_expect` AS `veh_exch_cus_expect`, `cpnl_vehicle`.`veh_exch_estimate` AS `veh_exch_estimate`, `cpnl_vehicle`.`veh_exch_dealer_value` AS `veh_exch_dealer_value`, `cpnl_vehicle`.`veh_status` AS `veh_status`, `cpnl_vehicle`.`veh_delete` AS `veh_delete`, `cpnl_vehicle`.`veh_added_by` AS `veh_added_by`, `cpnl_vehicle`.`veh_delivery_date` AS `veh_delivery_date`, `cpnl_vehicle`.`veh_first_reg` AS `veh_first_reg`, `cpnl_vehicle`.`veh_manf_year` AS `veh_manf_year`, `cpnl_vehicle`.`veh_ac` AS `veh_ac`, `cpnl_vehicle`.`veh_ac_zone` AS `veh_ac_zone`, `cpnl_vehicle`.`veh_cc` AS `veh_cc`, `cpnl_vehicle`.`veh_vehicle_type` AS `veh_vehicle_type`, `cpnl_vehicle`.`veh_engine_num` AS `veh_engine_num`, `cpnl_vehicle`.`veh_transmission` AS `veh_transmission`, `cpnl_vehicle`.`veh_seat_no` AS `veh_seat_no`, `cpnl_view_all_vehicle_status`.`vst_vehicle_id` AS `vst_vehicle_id`, `cpnl_view_all_vehicle_status`.`vst_status` AS `vst_status`, `cpnl_view_all_vehicle_status`.`vst_all_statuses` AS `vst_all_statuses`, `cpnl_view_all_vehicle_status`.`vst_current_status` AS `vst_current_status`, `rana_brand`.`brd_id` AS `brd_id`, `rana_brand`.`brd_category` AS `brd_category`, `rana_brand`.`brd_parent` AS `brd_parent`, `rana_brand`.`brd_section` AS `brd_section`, `rana_brand`.`brd_title` AS `brd_title`, `rana_brand`.`brd_slug` AS `brd_slug`, `rana_brand`.`brd_hash_tag` AS `brd_hash_tag`, `rana_brand`.`brd_url` AS `brd_url`, `rana_brand`.`brd_logo` AS `brd_logo`, `rana_brand`.`brd_desc` AS `brd_desc`, `rana_brand`.`brd_status` AS `brd_status`, `rana_brand`.`brd_date` AS `brd_date`, `rana_brand`.`brd_sort_order` AS `brd_sort_order`, `rana_brand`.`brd_added_by` AS `brd_added_by`, `rana_brand`.`brd_added_on` AS `brd_added_on`, `rana_variant`.`var_id` AS `var_id`, `rana_variant`.`var_model_id` AS `var_model_id`, `rana_variant`.`var_brand_id` AS `var_brand_id`, `rana_variant`.`var_variant_name` AS `var_variant_name`, `rana_variant`.`var_model_desc` AS `var_model_desc`, `rana_variant`.`var_model_slug` AS `var_model_slug`, `rana_variant`.`var_added_date` AS `var_added_date`, `rana_variant`.`var_added_by` AS `var_added_by`, `rana_variant`.`var_added_on` AS `var_added_on`, `rana_variant`.`var_is_ev` AS `var_is_ev`, `rana_model`.`mod_id` AS `mod_id`, `rana_model`.`mod_is_ev` AS `mod_is_ev`, `rana_model`.`mod_brand` AS `mod_brand`, `rana_model`.`mod_title` AS `mod_title`, `rana_model`.`mod_desc` AS `mod_desc`, `rana_model`.`mod_product_slug` AS `mod_product_slug`, `rana_model`.`mod_added_date` AS `mod_added_date`, `rana_model`.`mod_added_by` AS `mod_added_by`, `rana_model`.`mod_added_on` AS `mod_added_on` FROM ((((`cpnl_vehicle` left join `cpnl_view_all_vehicle_status` on((`cpnl_view_all_vehicle_status`.`vst_vehicle_id` = `cpnl_vehicle`.`veh_id`))) left join `rana_brand` on((`rana_brand`.`brd_id` = `cpnl_vehicle`.`veh_brand`))) left join `rana_model` on((`rana_model`.`mod_id` = `cpnl_vehicle`.`veh_model`))) left join `rana_variant` on((`rana_variant`.`var_id` = `cpnl_vehicle`.`veh_varient`))) ;
-
--- --------------------------------------------------------
-
---
--- Structure for view `cpnl_view_vehicle_vehicle_status_old`
---
-DROP TABLE IF EXISTS `cpnl_view_vehicle_vehicle_status_old`;
-
-CREATE ALGORITHM=UNDEFINED DEFINER=`myultrab`@`localhost` SQL SECURITY DEFINER VIEW `cpnl_view_vehicle_vehicle_status_old`  AS SELECT `cpnl_vehicle`.`veh_id` AS `veh_id`, `cpnl_vehicle`.`veh_stock_id` AS `veh_stock_id`, `cpnl_vehicle`.`veh_showroom_id` AS `veh_showroom_id`, `cpnl_vehicle`.`veh_enq_id` AS `veh_enq_id`, `cpnl_vehicle`.`veh_brand` AS `veh_brand`, `cpnl_vehicle`.`veh_model` AS `veh_model`, `cpnl_vehicle`.`veh_varient` AS `veh_varient`, `cpnl_vehicle`.`veh_year` AS `veh_year`, `cpnl_vehicle`.`veh_color` AS `veh_color`, `cpnl_vehicle`.`veh_owner` AS `veh_owner`, `cpnl_vehicle`.`veh_fuel` AS `veh_fuel`, `cpnl_vehicle`.`veh_reg` AS `veh_reg`, `cpnl_vehicle`.`veh_price_from` AS `veh_price_from`, `cpnl_vehicle`.`veh_price_to` AS `veh_price_to`, `cpnl_vehicle`.`veh_km_from` AS `veh_km_from`, `cpnl_vehicle`.`veh_km_to` AS `veh_km_to`, `cpnl_vehicle`.`veh_chassis_number` AS `veh_chassis_number`, `cpnl_vehicle`.`veh_remarks` AS `veh_remarks`, `cpnl_vehicle`.`veh_exch_cus_expect` AS `veh_exch_cus_expect`, `cpnl_vehicle`.`veh_exch_estimate` AS `veh_exch_estimate`, `cpnl_vehicle`.`veh_exch_dealer_value` AS `veh_exch_dealer_value`, `cpnl_vehicle`.`veh_status` AS `veh_status`, `cpnl_vehicle`.`veh_delete` AS `veh_delete`, `cpnl_vehicle`.`veh_added_by` AS `veh_added_by`, `cpnl_vehicle`.`veh_delivery_date` AS `veh_delivery_date`, `cpnl_vehicle`.`veh_first_reg` AS `veh_first_reg`, `cpnl_vehicle`.`veh_manf_year` AS `veh_manf_year`, `cpnl_vehicle`.`veh_ac` AS `veh_ac`, `cpnl_vehicle`.`veh_ac_zone` AS `veh_ac_zone`, `cpnl_vehicle`.`veh_cc` AS `veh_cc`, `cpnl_vehicle`.`veh_vehicle_type` AS `veh_vehicle_type`, `cpnl_vehicle`.`veh_engine_num` AS `veh_engine_num`, `cpnl_vehicle`.`veh_transmission` AS `veh_transmission`, `cpnl_vehicle`.`veh_seat_no` AS `veh_seat_no`, `cpnl_view_all_vehicle_status`.`vst_vehicle_id` AS `vst_vehicle_id`, `cpnl_view_all_vehicle_status`.`vst_status` AS `vst_status`, `cpnl_view_all_vehicle_status`.`vst_all_statuses` AS `vst_all_statuses`, `cpnl_view_all_vehicle_status`.`vst_current_status` AS `vst_current_status`, `rana_brand`.`brd_id` AS `brd_id`, `rana_brand`.`brd_parent` AS `brd_parent`, `rana_brand`.`brd_section` AS `brd_section`, `rana_brand`.`brd_title` AS `brd_title`, `rana_brand`.`brd_url` AS `brd_url`, `rana_brand`.`brd_logo` AS `brd_logo`, `rana_brand`.`brd_desc` AS `brd_desc`, `rana_brand`.`brd_status` AS `brd_status`, `rana_brand`.`brd_date` AS `brd_date`, `rana_brand`.`brd_sort_order` AS `brd_sort_order`, `rana_variant`.`var_id` AS `var_id`, `rana_variant`.`var_model_id` AS `var_model_id`, `rana_variant`.`var_brand_id` AS `var_brand_id`, `rana_variant`.`var_variant_name` AS `var_variant_name`, `rana_variant`.`var_model_desc` AS `var_model_desc`, `rana_variant`.`var_model_slug` AS `var_model_slug`, `rana_variant`.`var_added_date` AS `var_added_date`, `rana_model`.`mod_id` AS `mod_id`, `rana_model`.`mod_brand` AS `mod_brand`, `rana_model`.`mod_title` AS `mod_title`, `rana_model`.`mod_desc` AS `mod_desc`, `rana_model`.`mod_product_slug` AS `mod_product_slug`, `rana_model`.`mod_added_date` AS `mod_added_date` FROM ((((`cpnl_vehicle` left join `cpnl_view_all_vehicle_status` on((`cpnl_view_all_vehicle_status`.`vst_vehicle_id` = `cpnl_vehicle`.`veh_id`))) left join `rana_brand` on((`rana_brand`.`brd_id` = `cpnl_vehicle`.`veh_brand`))) left join `rana_model` on((`rana_model`.`mod_id` = `cpnl_vehicle`.`veh_model`))) left join `rana_variant` on((`rana_variant`.`var_id` = `cpnl_vehicle`.`veh_varient`))) ;
-
 --
 -- Indexes for dumped tables
 --
