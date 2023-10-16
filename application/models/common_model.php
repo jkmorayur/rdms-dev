@@ -361,7 +361,7 @@
        }
 
        function TLDARforApproval() {
-
+            return array();
             if (check_permission('dar', 'denaydarallbrnch')) {
                  $this->db->where($this->tbl_showroom . '.shr_id', get_logged_user('usr_showroom'));
             }
