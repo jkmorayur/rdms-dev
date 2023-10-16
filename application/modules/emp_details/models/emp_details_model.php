@@ -205,6 +205,86 @@ class emp_details_model extends CI_Model
           return $response;
      }
 
+     function getNewStaffRequest($postDatas)
+     {
+          $draw = $postDatas['draw'];
+          $row = $postDatas['start'];
+          $rowperpage = $postDatas['length']; // Rows display per page
+          $columnIndex = isset($postDatas['order'][0]['column']) ? $postDatas['order'][0]['column'] : ''; // Column index
+          $columnName = isset($postDatas['columns'][$columnIndex]['data']) ? $postDatas['columns'][$columnIndex]['data'] : 'ccb_id'; // Column name 
+          $columnSortOrder = isset($postDatas['order'][0]['dir']) ? $postDatas['order'][0]['dir'] : 'DESC'; // asc or desc
+          $searchValue = $postDatas['search']['value']; // Search value
+
+          $this->db->where($this->tbl_users . '.usr_new_join = 1');
+
+          if (!empty($searchValue)) {
+               $this->db->where("(" . $this->tbl_users . ".usr_username LIKE '%" . $searchValue . "%' OR " . $this->tbl_users . ".usr_email LIKE '%" . $searchValue . "%' OR "
+                    . $this->tbl_users . ".usr_first_name LIKE '%" . $searchValue . "%' OR " . $this->tbl_users . ".usr_last_name LIKE '%"
+                    . $searchValue . "%') ");
+          }
+
+          // Clone the query to calculate total records without limits
+          $totalRecords = $this->db->count_all_results($this->tbl_users);
+          // Apply limit and get the data for the current page
+
+          $this->db->where($this->tbl_users . '.usr_new_join = 1');
+
+          if (!empty($searchValue)) {
+               $this->db->where("(" . $this->tbl_users . ".usr_username LIKE '%" . $searchValue . "%' OR " . $this->tbl_users . ".usr_email LIKE '%" . $searchValue . "%' OR "
+                    . $this->tbl_users . ".usr_first_name LIKE '%" . $searchValue . "%' OR " . $this->tbl_users . ".usr_last_name LIKE '%"
+                    . $searchValue . "%') ");
+          }
+
+          $this->db->select(
+               $this->tbl_users . '.usr_id, ' .
+                    $this->tbl_users . '.usr_appdownloadlink, ' .
+                    $this->tbl_users . '.usr_emp_code, ' .
+                    $this->tbl_users . '.usr_username, ' .
+                    $this->tbl_users . '.usr_caller_id, ' .
+                    $this->tbl_users . '.usr_company_email, ' .
+                    $this->tbl_users . '.usr_phone, ' .
+                    $this->tbl_users . '.usr_persnl_email, ' .
+                    $this->tbl_users . '.usr_mobile_personal, ' .
+                    $this->tbl_users . '.usr_doj, ' .
+                    $this->tbl_users . '.usr_dob, ' .
+                    $this->tbl_users . '.usr_address, ' .
+                    $this->tbl_users . '.usr_address1, ' .
+                    $this->tbl_users . '.usr_emergency_no, ' .
+                    $this->tbl_users . '.usr_marital_status, ' .
+                    $this->tbl_users . '.usr_spouse_name, ' .
+                    $this->tbl_users . '.usr_marriage_date, ' .
+                    $this->tbl_users . '.usr_father_name, ' .
+                    $this->tbl_users . '.usr_edu_quali, ' .
+                    $this->tbl_users . '.usr_tech_quali, ' .
+                    $this->tbl_users . '.usr_previous_exp, ' .
+                    $this->tbl_users . '.usr_industry_exp, ' .
+                    $this->tbl_users . '.usr_bank, ' .
+                    $this->tbl_users . '.usr_bank_acc_no, ' .
+                    $this->tbl_users . '.usr_bank_ifsc,' .
+                    $this->tbl_users_groups . '.group_id as group_id, ' .
+                    $this->tbl_groups . '.name as group_name, ' .
+                    $this->tbl_groups . '.description as group_desc, ' . $this->tbl_showroom . '.*, tl.usr_username AS teamLead, ' .
+                    $this->tbl_designation . '.desig_title'
+          );
+          if ($rowperpage > 0) {
+               $this->db->limit($rowperpage, $row);
+          }
+          $data = $this->db->join($this->tbl_users_groups, $this->tbl_users_groups . '.user_id = ' . $this->tbl_users . '.usr_id', 'LEFT')
+               ->join($this->tbl_groups, $this->tbl_users_groups . '.group_id = ' . $this->tbl_groups . '.id', 'LEFT')
+               ->join($this->tbl_showroom, $this->tbl_showroom . '.shr_id = ' . $this->tbl_users . '.usr_showroom', 'LEFT')
+               ->join($this->tbl_users . ' tl', 'tl.usr_id = ' . $this->tbl_users . '.usr_tl', 'LEFT')
+               ->join($this->tbl_designation, $this->tbl_designation . '.desig_id = ' . $this->tbl_users . '.usr_designation_new', 'LEFT')
+               ->get($this->tbl_users)->result_array();
+
+          $response = array(
+               "draw" => intval($postDatas['draw']),
+               "iTotalRecords" => $totalRecords,
+               "iTotalDisplayRecords" => $totalRecords,
+               "aaData" => $data
+          );
+          return $response;
+     }
+
      function upcomingCelebrations()
      {
           //$data['birthday'] = $this->db->select('usr_emp_code, usr_username, usr_dob')->where('(DAY(usr_dob) = DAY(DATE_ADD(CURDATE(), INTERVAL 1 DAY)) OR 
@@ -341,7 +421,6 @@ class emp_details_model extends CI_Model
 
      function update($data)
      {
-
           if ((isset($data['usr_id']) && !empty($data['usr_id'])) && (isset($data['usr_showroom']) && !empty($data['usr_showroom']))) {
                $userDetails = $this->ion_auth->user($data['usr_id'])->row_array();
                $newShowroom = isset($data['usr_showroom']) ? $data['usr_showroom'] : 0;
@@ -407,7 +486,7 @@ class emp_details_model extends CI_Model
           //$data['usr_tl'] = $userGroup == 8 ? $data['usr_tl'] : 0;
           $data['usr_active'] = isset($data['usr_active']) ? $data['usr_active'] : 0;
           $data['usr_designation'] = $userGroup;
-
+          $data['usr_new_join'] = 0;
           $this->ion_auth->update($id, array_filter($data));
 
           generate_log(array(
@@ -834,7 +913,7 @@ class emp_details_model extends CI_Model
           );
           return $response;
      }
-  
+
      function totalRecords($postDatas, $filterDatas)
      {
           $searchValue = $postDatas['search']['value']; // Search value
@@ -854,7 +933,7 @@ class emp_details_model extends CI_Model
           $this->db->where($this->tbl_users . '.usr_id !=', 1);
           $this->db->where($this->tbl_users . ".usr_username != ''");
 
-         
+
           if (!empty($searchValue)) {
 
                $this->db->where("(" . $this->tbl_users . ".usr_username LIKE '%" . $searchValue . "%' OR " . $this->tbl_users . ".usr_email LIKE '%" . $searchValue . "%' OR "
@@ -876,14 +955,12 @@ class emp_details_model extends CI_Model
                $this->db->where(array($this->tbl_users . '.usr_resigned' => $filterDatas['resigned']));
           }
           $this->db->select('COUNT(*) as count')
-        ->from($this->tbl_users)
+               ->from($this->tbl_users)
                ->join($this->tbl_users_groups, $this->tbl_users_groups . '.user_id = ' . $this->tbl_users . '.usr_id', 'LEFT')
                ->join($this->tbl_groups, $this->tbl_users_groups . '.group_id = ' . $this->tbl_groups . '.id', 'LEFT')
                ->join($this->tbl_users . ' tl', 'tl.usr_id = ' . $this->tbl_users . '.usr_tl', 'LEFT');
-          
+
           $result = $this->db->get()->row_array();
           return $result['count'];
      }
-     
-     
 }

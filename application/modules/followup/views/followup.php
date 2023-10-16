@@ -993,7 +993,7 @@
                          <div class="row">
                               <div class="form-group col-md-3 col-sm-3 col-xs-6">
                                    <label class="lbl">Date</label>
-                                   <input type="text" class="form-control col-md-7 col-xs-12 dtpDatePickerDMY" name="hmv_date" id="date" placeholder="Date" autocomplete="off">
+                                   <input type="text" class="form-control col-md-7 col-xs-12 dtpDatePickerHmVstDMY" name="hmv_date" id="date" placeholder="Date" autocomplete="off">
                               </div>
                               <div class="form-group col-md-3 col-sm-3 col-xs-6">
                                    <label class="lbl">Out km </label>

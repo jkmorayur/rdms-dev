@@ -1928,12 +1928,24 @@ class enquiry_model extends CI_Model
                          if ($data['enquiry']['enq_cus_status'] == 1 || $data['enquiry']['enq_cus_status'] == 3) { //sales or exchange
                               $noOfSale = isset($data['vehicle']['sale']['veh_brand']) ? count($data['vehicle']['sale']['veh_brand']) : 0; //required
                               if ($noOfSale > 0) {
+            
                                    $this->storeReqVeh($data['vehicle']['sale'], $noOfSale, $enquiryId); //req
+                                 
                               }
+                              
                               $noOfPitched = isset($data['vehicle']['pitched']['veh_val_id']) ? count($data['vehicle']['pitched']['veh_val_id']) : 0;
+                            
                               if ($noOfPitched > 0) {
                                    $this->storePitchedVeh($data['vehicle']['pitched'], $noOfPitched, $enquiryId);
+                                  $this->updatePitchedvehMeta($data['vehicle']['pitched'], $noOfPitched, $enquiryId);
+                              } elseif($noOfSale > 0){
+
+                                   $this->updateSalesVehicleMeta($data['vehicle']['sale'], $noOfSale, $enquiryId);
+
                               }
+                             
+                          
+                            
                          }
 
                          /* Existing veh */
@@ -1944,6 +1956,7 @@ class enquiry_model extends CI_Model
                          /* @Existing veh */
                          if ($noOfBuy > 0) {
                               $this->storePurchaseVeh($data['vehicle']['buy'], $noOfBuy, $enquiryId, $data['enquiry']);
+                              $this->updatePurchaseVehicleMeta($data['vehicle']['buy'], $noOfBuy, $enquiryId, $data['enquiry']);
                          }
 
                          // debug($buy['veh_delivery_state']);
@@ -3303,10 +3316,11 @@ class enquiry_model extends CI_Model
           } else {
                $return['data'] = $this->db->get($this->tbl_register_master)->result_array();
           }
-          //if($this->uid == 1089) {
-          //echo $this->db->last_query();
-          //debug($return['data']);
-          //}
+          // if ($this->uid == 814) {
+          //      echo $this->db->last_query();
+          //      debug($return['data']);
+          // }
+
           return $return;
      }
      public function readVehicleRegEnq($id = '', $limit = 0, $page = 0, $filter = array())
@@ -5966,4 +5980,108 @@ class enquiry_model extends CI_Model
           }
           return false;
      }
+
+     /*jsk*/
+     function updateSalesVehicleMeta($data, $noOfSale, $enquiryId, $enq_se_id = '') {
+
+       
+          $lastReq = null; // Initialize a variable to store the last data
+     
+          for ($i = 0; $i < $noOfSale; $i++) {
+ 
+               $req['veh_brand'] = isset($data['veh_brand'][$i]) ? $data['veh_brand'][$i] : 0;
+               $req['veh_model'] = isset($data['veh_model'][$i]) ? $data['veh_model'][$i] : 0;
+               $req['veh_varient'] = isset($data['veh_varient'][$i]) ? $data['veh_varient'][$i] : 0;
+              
+     
+               // Update the lastReq variable with the current data
+               $lastReq = $req;
+          }
+
+       ///   debug($lastReq);
+         // echo'<pre>';
+//print_r($lastReq);
+
+          $brand= $this->db->select('brd_title')
+                  ->where($this->tbl_brand. '.brd_id', $lastReq['veh_brand'])->get($this->tbl_brand)->row_array();
+                  //print_r($brand);
+
+                  $model= $this->db->select('mod_title')
+                  ->where($this->tbl_model . '.mod_id', $lastReq['veh_model'])->get($this->tbl_model )->row_array();
+                 // print_r($model);
+
+                  $variant= $this->db->select('var_variant_name')
+                  ->where($this->tbl_variant . '.var_id ', $lastReq['veh_varient'])->get($this->tbl_variant )->row_array();
+                  //print_r($variant);
+                
+                  $vehicle= $brand.' '. $model.' ' .$variant;
+
+
+          $this->db->where('enqm_enq_id', $enquiryId)->update(
+               $this->tbl_enquiry_meta,
+               array('enqm_sls_veh' => $vehicle)
+          );
+          return true;
+
+     }
+     function updatePurchaseVehicleMeta($data, $noOfBuy, $enquiryId, $enquiry)
+     {
+          $lastBuy = null; 
+          for ($i = 0; $i < $noOfBuy; $i++) {
+          
+               $buy['veh_brand'] = isset($data['veh_brand'][$i]) ? $data['veh_brand'][$i] : 0;
+               $buy['veh_model'] = isset($data['veh_model'][$i]) ? $data['veh_model'][$i] : 0;
+               $buy['veh_varient'] = isset($data['veh_varient'][$i]) ? $data['veh_varient'][$i] : 0;
+               $lastBuy = $buy;
+          
+          }
+          
+          $brand= $this->db->select('brd_title')
+                  ->where($this->tbl_brand. '.brd_id', $lastBuy['veh_brand'])->get($this->tbl_brand)->row_array();
+                  //print_r($brand);
+
+                  $model= $this->db->select('mod_title')
+                  ->where($this->tbl_model . '.mod_id', $lastBuy['veh_model'])->get($this->tbl_model )->row_array();
+                 // print_r($model);
+
+                  $variant= $this->db->select('var_variant_name')
+                  ->where($this->tbl_variant . '.var_id ', $lastBuy['veh_varient'])->get($this->tbl_variant )->row_array();
+                  //print_r($variant);
+                
+                  $vehicle= $brand.' '. $model.' ' .$variant;
+
+                  $this->db->where('enqm_enq_id', $enquiryId)->update(
+                    $this->tbl_enquiry_meta,
+                    array('enqm_pur_veh' => $vehicle)
+               );
+               return true;
+          
+     }
+
+
+     function updatePitchedvehMeta($data, $noOfPitched, $enquiryId)
+     {
+          $last = null; 
+           // echo'<pre>';
+          //print_r($data);
+
+          for ($i = 0; $i < $noOfPitched; $i++) {
+               $pitched['brand'] =  $data['brand_name'][$i];
+               $pitched['model'] =  $data['model_name'][$i];
+               $pitched['variant'] = $data['variant_name'][$i];
+               $last = $pitched;
+          }
+
+     
+          $vehicle=  $last['brand'].' '. $last['model'].' ' .$last['variant'];
+//echo $vehicle;
+//exit;
+
+  $this->db->where('enqm_enq_id', $enquiryId)->update(
+       $this->tbl_enquiry_meta,
+       array('enqm_sls_veh' => $vehicle)
+  );
+          return true;
+     }
+     /*@jsk*/
 }

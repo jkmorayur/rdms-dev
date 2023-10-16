@@ -17,7 +17,7 @@
                                    <select required class="form-control col-md-7 col-xs-12" name="grd_designation">
                                         <option value="">Select designation</option>
                                         <?php foreach ($designation as $key => $value) {?>
-                                               <option value="<?php echo $value['desig_id'];?>"><?php echo $value['desig_title'];?></option>
+                                               <option value="<?php echo $value['id'];?>"><?php echo $value['name'];?></option>
                                         <?php }?>
                                    </select>
                               </div>

@@ -1,5 +1,4 @@
 <?php
-
 if (!defined('BASEPATH'))
      exit('No direct script access allowed');
 
@@ -1464,10 +1463,11 @@ class evaluation_model extends CI_Model
      {
           //21 - Delivery Coordinator
           //15 - Dy Manager - Inventory
+          //64 - Evaluator Sourcer
           return $this->db->select('usr_id, usr_username, usr_first_name, usr_last_name, shr_location')
                ->join($this->tbl_showroom, $this->tbl_showroom . '.shr_id = ' . $this->tbl_users . '.usr_showroom', 'left')
                ->where(array($this->tbl_users . '.usr_active' => 1, $this->tbl_users . '.usr_resigned' => 0))
-               ->where_in('usr_designation_new', array(21, 15))->or_where('usr_id', 949)->get($this->tbl_users)->result_array();
+               ->where_in('usr_designation_new', array(21, 15, 64))->or_where('usr_id', 949)->get($this->tbl_users)->result_array();
      }
 
      function getMISEvaluation()
@@ -1475,10 +1475,11 @@ class evaluation_model extends CI_Model
           //09 - Team Cooridnator
           //38 - MIS Coordinator
           //66 - MIS Coordinator-purchase
+          //33 - Admin Executive-Purchase
           return $this->db->select('usr_id, usr_username, usr_first_name, usr_last_name, shr_location')
                ->join($this->tbl_showroom, $this->tbl_showroom . '.shr_id = ' . $this->tbl_users . '.usr_showroom', 'left')
                ->where(array($this->tbl_users . '.usr_active' => 1, $this->tbl_users . '.usr_resigned' => 0))
-               ->where_in('usr_designation_new', array(9, 38, 66))->get($this->tbl_users)->result_array();
+               ->where_in('usr_designation_new', array(9, 38, 66, 33))->get($this->tbl_users)->result_array();
      }
 
      function getAdmins()

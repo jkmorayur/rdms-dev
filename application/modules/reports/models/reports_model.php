@@ -753,7 +753,7 @@ class reports_model extends CI_Model
                ->join($this->tbl_groups, $this->tbl_groups . '.id = ' . $this->tbl_users_groups . '.group_id', 'left')
                ->join($this->tbl_showroom, $this->tbl_showroom . '.shr_id = ' . $this->tbl_users . '.usr_showroom', 'left')
                ->join($this->tbl_designation, $this->tbl_designation . '.desig_id = ' . $this->tbl_users . '.usr_designation_new', 'LEFT')
-               ->where(implode(' OR ', $assign))
+               ->where('(' . implode(' OR ', $assign) . ')')
                ->where(array($this->tbl_users . '.usr_active' => 1, 'usr_resigned' => 0))->get($this->tbl_users)->result_array();
      }
 
@@ -1090,8 +1090,7 @@ class reports_model extends CI_Model
                $this->db->where($this->tbl_enquiry . '.enq_cus_status', $data['type']);
           }
           if (is_roo_user() || check_permission('enquiry', 'showall')) { // Admin users 
-          }
-          if (check_permission('enquiry', 'showonlymystaff')) {
+          } else if (check_permission('enquiry', 'showonlymystaff')) {
                $this->db->where_in($this->tbl_enquiry . '.enq_se_id', $mystaffs);
           } else if ($this->usr_grp == 'MG' && $this->uid != 48 && $this->uid != 870 && $this->uid != 927 && $this->uid != 691) { // Manager Ponnu, Shiny, Remya, Ancy
                $this->db->where($this->tbl_enquiry . '.enq_showroom_id', $showroom);
@@ -1153,7 +1152,7 @@ class reports_model extends CI_Model
                //->join($this->tbl_enquiry_meta, $this->tbl_enquiry_meta . '.enqm_enq_id = ' . $this->tbl_enquiry . '.enq_id', 'LEFT')
                ->order_by($this->tbl_enquiry . '.enq_entry_date', 'DESC')
                ->get($this->tbl_enquiry)->result_array();
-          // if ($this->uid == 691) {
+          // if ($this->uid == 100) {
           //      echo $this->db->last_query();
           //      debug($return);
           // }

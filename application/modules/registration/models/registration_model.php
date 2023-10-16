@@ -199,6 +199,9 @@ class registration_model extends CI_Model
           date_default_timezone_set("Asia/Calcutta");
           $bikeArray = array(37, 40, 41, 48, 50, 54, 55, 56, 57);
           $regMaster['vreg_brand'] = isset($regMaster['vreg_brand']) ? $regMaster['vreg_brand'] : 0;
+          if (isset($regMaster['vreg_cust_phone'])) {
+               $regMaster['vreg_cust_phone'] = preg_replace('/[^A-Za-z0-9]/', '', $regMaster['vreg_cust_phone']);
+          }
 
           if (in_array($regMaster['vreg_brand'], $bikeArray)) {
                $regMaster['vreg_veh_base'] = 2;
@@ -1723,12 +1726,12 @@ class registration_model extends CI_Model
           if (check_permission('registration', 'canselfassignregister')) { //usr_phone
                $this->db->where('usr_id != ', $this->uid);
           }
-          $salesStaff = $this->db->select($this->tbl_users . '.usr_id AS col_id, ' . $this->tbl_users . '.usr_first_name AS col_title, ' . $this->tbl_users . '.usr_phone AS satff_phone, '
+          $salesStaff = $this->db->select($this->tbl_users . '.usr_id AS col_id, ' . $this->tbl_users . '.usr_username AS col_title, ' . $this->tbl_users . '.usr_phone AS satff_phone, '
                . $this->tbl_users_groups . '.*,' . $this->tbl_groups . '.*,' . $this->tbl_showroom . '.shr_location,' . $this->tbl_users . '.usr_active')
                ->join($this->tbl_users_groups, $this->tbl_users_groups . '.user_id = ' . $this->tbl_users . '.usr_id', 'LEFT')
                ->join($this->tbl_groups, $this->tbl_groups . '.id = ' . $this->tbl_users_groups . '.group_id', 'LEFT')
                //->where('(' . $this->tbl_groups . ".grp_slug = 'SE' OR " . $this->tbl_groups . ".grp_slug = 'DE' OR " . $this->tbl_groups . ".grp_slug = 'TL')")
-               ->where(array($this->tbl_users . '.usr_active' => 1))->order_by($this->tbl_users . '.usr_first_name', 'ASC')
+               ->where(array($this->tbl_users . '.usr_active' => 1))->order_by($this->tbl_users . '.usr_username', 'ASC')
                ->join($this->tbl_showroom, $this->tbl_showroom . '.shr_id = ' . $this->tbl_users . '.usr_showroom', 'left')
                ->get($this->tbl_users)->result_array();
 
@@ -1738,7 +1741,7 @@ class registration_model extends CI_Model
                ->join($this->tbl_users_groups, $this->tbl_users_groups . '.user_id = ' . $this->tbl_users . '.usr_id', 'LEFT')
                ->join($this->tbl_groups, $this->tbl_groups . '.id = ' . $this->tbl_users_groups . '.group_id', 'LEFT')
                ->join($this->tbl_showroom, $this->tbl_showroom . '.shr_id = ' . $this->tbl_users . '.usr_showroom', 'left')
-               ->where(array($this->tbl_users . '.usr_id' => $this->uid))->order_by($this->tbl_users . '.usr_first_name', 'ASC')->get($this->tbl_users)->result_array();
+               ->where(array($this->tbl_users . '.usr_id' => $this->uid))->order_by($this->tbl_users . '.usr_username', 'ASC')->get($this->tbl_users)->result_array();
 
           array_splice($salesStaff, 0, 0, $myself); //Insert new item in array on any position;
           //  }

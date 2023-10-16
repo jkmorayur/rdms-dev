@@ -36,13 +36,13 @@
                                                     data-bind="cmbShowroom" required data-dflt-select="Select Showroom">
                                                     <option value="">Select division</option>
                                                     <?php
-                                                                 foreach ($division as $key => $value) {
-                                                                 ?>
+                                                    foreach ($division as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['div_id']; ?>">
                                                         <?php echo $value['div_name']; ?></option>
                                                     <?php
-                                                                 }
-                                                                 ?>
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -94,29 +94,29 @@
                                             <label class="control-label col-md-4 col-sm-3 col-xs-12">Evaluator</label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <?php
-                                                            $readOnly = 0;
-                                                            if (in_array($this->uid, array_column($evaluators, 'col_id'))) {
-                                                                 $readOnly = 1;
-                                                            }
-                                                            ?>
+                                                $readOnly = 0;
+                                                if (in_array($this->uid, array_column($evaluators, 'col_id'))) {
+                                                    $readOnly = 1;
+                                                }
+                                                ?>
                                                 <?php //echo ($readOnly == 1) ? 'disabled' : '';
-                                                            ?>
+                                                ?>
                                                 <select required="true" class="select2_group form-control"
                                                     name="valuation[val_evaluator]" id="val_evaluator">
                                                     <option value="">Select Evaluator</option>
                                                     <option value="623">Sidharth</option>
                                                     <?php
-                                                                 if (!empty($evaluators)) {
-                                                                      foreach ($evaluators as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($evaluators)) {
+                                                        foreach ($evaluators as $key => $value) {
+                                                    ?>
                                                     <option
                                                         <?php echo ($this->uid == $value['col_id']) ? 'selected="selected"' : ''; ?>
                                                         value="<?php echo $value['col_id']; ?>">
                                                         <?php echo $value['col_title']; ?></option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                     <option
                                                         <?php echo ($this->uid == 720) ? 'selected="selected"' : ''; ?>
                                                         value="720">Robin cheriyan</option>
@@ -146,16 +146,16 @@
                                                     name="valuation[val_manager]" id="val_manager">
                                                     <option value="">Select Manager</option>
                                                     <?php
-                                                                 if (!empty($managers)) {
-                                                                      foreach ($managers as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($managers)) {
+                                                        foreach ($managers as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['col_id']; ?>">
                                                         <?php echo $value['col_title'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -185,16 +185,16 @@
                                                     id="val_mis">
                                                     <option value="0">Select MIS</option>
                                                     <?php
-                                                                 if (!empty($mis)) {
-                                                                      foreach ($mis as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($mis)) {
+                                                        foreach ($mis as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['usr_id']; ?>">
                                                         <?php echo $value['usr_first_name'] . ' ' . $value['usr_last_name'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -208,16 +208,16 @@
                                                     name="valuation[val_delco]" id="val_manager">
                                                     <option value="">Select Delivery Coordinator</option>
                                                     <?php
-                                                                 if (!empty($delco)) {
-                                                                      foreach ($delco as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($delco)) {
+                                                        foreach ($delco as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['usr_id']; ?>">
                                                         <?php echo $value['usr_first_name'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                     <option
                                                         <?php echo ($this->uid == 844) ? 'selected="selected"' : ''; ?>
                                                         value="844">Ronish Jose (Ernakulam)</option>
@@ -290,12 +290,12 @@
                                                     name="valuation[val_cust_source]">
                                                     <option value="0">Select one</option>
                                                     <?php
-                                                                 foreach (unserialize(MODE_OF_CONTACT) as $key => $value) {
-                                                                 ?>
+                                                    foreach (unserialize(MODE_OF_CONTACT) as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $key; ?>"><?php echo $value; ?></option>
                                                     <?php
-                                                                 }
-                                                                 ?>
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -389,16 +389,16 @@
                                                     name="valuation[val_admin]" id="val_admin">
                                                     <option value="">Select Sales Admin Staff</option>
                                                     <?php
-                                                                 if (!empty($admin)) {
-                                                                      foreach ($admin as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($admin)) {
+                                                        foreach ($admin as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['usr_id']; ?>">
                                                         <?php echo $value['usr_first_name'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -414,16 +414,16 @@
                                                     name="valuation[val_purchase_admin]" id="val_purchase_admin">
                                                     <option value="0">Select Purchase admin</option>
                                                     <?php
-                                                                 if (!empty($purchaseAdmin)) {
-                                                                      foreach ($purchaseAdmin as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($purchaseAdmin)) {
+                                                        foreach ($purchaseAdmin as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['usr_id']; ?>">
                                                         <?php echo $value['usr_first_name'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -436,16 +436,16 @@
                                                     id="val_apm_asm">
                                                     <option value="0">Select APM/ASM</option>
                                                     <?php
-                                                                 if (!empty($APMASM)) {
-                                                                      foreach ($APMASM as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($APMASM)) {
+                                                        foreach ($APMASM as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['col_id']; ?>">
                                                         <?php echo $value['col_title'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -461,16 +461,16 @@
                                                     name="valuation[val_tele_caller]" id="val_tele_caller">
                                                     <option value="0">Telecaller</option>
                                                     <?php
-                                                                 if (!empty($teleclrs)) {
-                                                                      foreach ($teleclrs as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($teleclrs)) {
+                                                        foreach ($teleclrs as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['usr_id']; ?>">
                                                         <?php echo $value['usr_first_name'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -484,16 +484,16 @@
                                                     id="val_tsc">
                                                     <option value="0">Select Tele Purchase Coordinator</option>
                                                     <?php
-                                                                 if (!empty($telprsco)) {
-                                                                      foreach ($telprsco as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($telprsco)) {
+                                                        foreach ($telprsco as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['usr_id']; ?>">
                                                         <?php echo $value['usr_first_name'] . ' ' . $value['usr_last_name'] . ' (' . $value['shr_location'] . ')'; ?>
                                                     </option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -556,15 +556,15 @@
                                                     name="valuation[val_brand]" id="val_brand">
                                                     <option value="">Select Brand</option>
                                                     <?php
-                                                                 if (!empty($brand)) {
-                                                                      foreach ($brand as $key => $value) {
-                                                                 ?>
+                                                    if (!empty($brand)) {
+                                                        foreach ($brand as $key => $value) {
+                                                    ?>
                                                     <option value="<?php echo $value['brd_id']; ?>">
                                                         <?php echo $value['brd_title']; ?></option>
                                                     <?php
-                                                                      }
-                                                                 }
-                                                                 ?>
+                                                        }
+                                                    }
+                                                    ?>
                                                 </select>
                                             </div>
                                         </div>
@@ -811,8 +811,8 @@
                                                 Number</label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <input required class="form-control col-md-7 col-xs-12"
-                                                    placeholder="Engine Number" type="text"
-                                                    name="valuation[val_engine_no]" id="val_engine_no">
+                                                    style="text-transform: uppercase;" placeholder="Engine Number"
+                                                    type="text" name="valuation[val_engine_no]" id="val_engine_no">
                                             </div>
                                         </div>
                                     </div>
@@ -822,8 +822,8 @@
                                                 Number</label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <input required class="form-control col-md-7 col-xs-12"
-                                                    placeholder="Chassis Number" type="text"
-                                                    name="valuation[val_chasis_no]" id="val_chasis_no">
+                                                    style="text-transform: uppercase;" placeholder="Chassis Number"
+                                                    type="text" name="valuation[val_chasis_no]" id="val_chasis_no">
                                             </div>
                                         </div>
                                     </div>
@@ -912,12 +912,12 @@
                                                             <select class="select2_group form-control" name="valuation[val_insurance]" id="val_insurance">
                                                                  <option value="0">Select Insurance Type</option>
                                                                  <?php //foreach (unserialize(INSURANCE_TYPES) as $key => $value) {
-                                                                 ?>
+                                                                    ?>
                                                                       <option value="<?php //echo $key;
-                                                                                     ?>"><?php //echo $value;
-                                                                                          ?></option>
+                                                                                        ?>"><?php //echo $value;
+                                                                                            ?></option>
                                                                  <?php //}
-                                                                 ?>
+                                                                    ?>
                                                             </select>
                                                        </div>
                                                   </div>
@@ -1115,9 +1115,9 @@
                                         </h3>
                                         <ul class="ks-cboxtags ulVehicleFeatures">
                                             <?php
-                                                       if (!empty($vehicleFeatures)) {
-                                                            foreach ($vehicleFeatures as $key => $value) {
-                                                       ?>
+                                            if (!empty($vehicleFeatures)) {
+                                                foreach ($vehicleFeatures as $key => $value) {
+                                            ?>
                                             <li>
                                                 <input type="checkbox" name="features[<?php echo $value['vftr_id']; ?>]"
                                                     id="checkboxOne<?php echo $value['vftr_id']; ?>"
@@ -1126,9 +1126,9 @@
                                                     for="checkboxOne<?php echo $value['vftr_id']; ?>"><?php echo $value['vftr_feature']; ?></label>
                                             </li>
                                             <?php
-                                                            }
-                                                       }
-                                                       ?>
+                                                }
+                                            }
+                                            ?>
                                         </ul>
                                     </div>
 
@@ -1138,9 +1138,9 @@
                                             loadings</h3>
                                         <ul class="ks-cboxtags ulVehicleAdOnFeatures">
                                             <?php
-                                                       if (!empty($vehicleAddOnFeatures)) {
-                                                            foreach ($vehicleAddOnFeatures as $key => $value) {
-                                                       ?>
+                                            if (!empty($vehicleAddOnFeatures)) {
+                                                foreach ($vehicleAddOnFeatures as $key => $value) {
+                                            ?>
                                             <li>
                                                 <input type="checkbox" name="features[<?php echo $value['vftr_id']; ?>]"
                                                     id="checkboxOne<?php echo $value['vftr_id']; ?>"
@@ -1149,9 +1149,9 @@
                                                     for="checkboxOne<?php echo $value['vftr_id']; ?>"><?php echo $value['vftr_feature']; ?></label>
                                             </li>
                                             <?php
-                                                            }
-                                                       }
-                                                       ?>
+                                                }
+                                            }
+                                            ?>
                                         </ul>
                                     </div>
                                 </div>
@@ -1203,12 +1203,12 @@
                                     </thead>
                                     <tbody>
                                         <?php
-                                                  foreach ($fullBodyCheckupMaster as $mk => $mstr) {
-                                                       $fullBodyCheckupDetails = $this->evaluation->getFullBodyCheckupDetailByMaster($mstr['vfbcm_id']);
-                                                       if ($mk == 0 || ($mk % 2 == 0)) {
-                                                            echo '<tr>';
-                                                       }
-                                                  ?>
+                                        foreach ($fullBodyCheckupMaster as $mk => $mstr) {
+                                            $fullBodyCheckupDetails = $this->evaluation->getFullBodyCheckupDetailByMaster($mstr['vfbcm_id']);
+                                            if ($mk == 0 || ($mk % 2 == 0)) {
+                                                echo '<tr>';
+                                            }
+                                        ?>
                                         <td class="td-head"><?php echo $mstr['vfbcm_title']; ?></td>
                                         <?php foreach ($fullBodyCheckupDetails as $dk => $dtls) { ?>
                                         <td>
@@ -1221,9 +1221,9 @@
                                             </label>
                                         </td>
                                         <?php }
-                                                       if ($mk % 2 != 0) {
-                                                            echo '</tr>';
-                                                       } ?>
+                                            if ($mk % 2 != 0) {
+                                                echo '</tr>';
+                                            } ?>
                                         <?php } ?>
                                     </tbody>
                                 </table>

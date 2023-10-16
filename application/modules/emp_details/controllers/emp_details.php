@@ -7,7 +7,6 @@ class emp_details extends App_Controller
 
      public function __construct()
      {
-
           parent::__construct();
           $this->page_title = 'New employe';
           $this->load->model('showroom/showroom_model', 'showroom');
@@ -18,6 +17,15 @@ class emp_details extends App_Controller
           $this->load->model('enquiry/enquiry_model', 'enquiry');
           $this->load->model('divisions/divisions_model', 'divisions');
      }
+     function pendingapp()
+     {
+          $this->render_page(strtolower(__CLASS__) . '/newstaff');
+     }
+     function pendingappAjax()
+     {
+          $response = $this->emp_details->getNewStaffRequest($this->input->post());
+          echo json_encode($response);
+     }
 
      public function index()
      {
@@ -25,7 +33,6 @@ class emp_details extends App_Controller
           $data['division'] = $this->divisions->getActiveData();
           $data['showroom'] = $this->enquiry->bindShowroomByDivision($this->input->get('vreg_division'));
           $this->render_page(strtolower(__CLASS__) . '/list', $data);
-          
      }
      public function list_ajax()
      {
