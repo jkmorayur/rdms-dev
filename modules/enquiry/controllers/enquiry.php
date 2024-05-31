@@ -896,7 +896,7 @@ My self $myname, Please feel free to contact me @ $mynumber. Regards, $myname in
           //$exec_time = ($end - $start);
           //echo "The execution time of the PHP script is : ".$exec_time." sec";  
           //exit;
-          //debug($enquires,1);
+          // debug($enquires);
 
           $data['datas'] = $enquires['data'];
           // debug($enquires['data']);
@@ -942,6 +942,78 @@ My self $myname, Please feel free to contact me @ $mynumber. Regards, $myname in
                //exit;
           }
           $this->render_page(strtolower(__CLASS__) . '/myregister', $data);
+          // $this->render_page(strtolower(__CLASS__) . '/myreg_test', $data);
+     }
+
+     function reassigned($test = '') {
+          $this->page_title = "My register";
+          $this->load->library("pagination");
+
+          //$pendingReg = $this->enquiry->pendingRegByStaff($_GET);
+          // debug($pendingReg);
+          $limit = 10;
+          $page = !isset($_GET['page']) ? 0 : $_GET['page'];
+          $linkParts = explode('&page=', current_url() . '?' . $_SERVER['QUERY_STRING']);
+          $link = $linkParts[0];
+          $config = getPaginationDesign();
+
+          $data = $_GET;
+          //   if (check_permission('enquiry', 'myregistercallanalysis')) {
+          //        $data['tc'] = $this->enquiry->registerTodaysanalysis();
+          //   }
+          //debug($page);
+          //$start = microtime(true);///
+          $enquires = $this->enquiry->readVehicleReg(0, $limit, $page, $_GET, false, 1);
+          //$end = microtime(true);
+          //$exec_time = ($end - $start);
+          //echo "The execution time of the PHP script is : ".$exec_time." sec";  
+          //exit;
+          // debug($enquires);
+
+          $data['datas'] = $enquires['data'];
+          // debug($enquires['data']);
+
+          $config['page_query_string'] = TRUE;
+          $config['query_string_segment'] = 'page';
+          $config["base_url"] = $link;
+          $config["total_rows"] = $enquires['count'];
+          $config["per_page"] = $limit;
+          $config["uri_segment"] = 3;
+
+          /* Table info */
+          $data['pageIndex'] = $page + 1;
+          $data['limit'] = $page + $limit;
+          $data['totalRow'] = number_format($enquires['count']);
+          /* Table info */
+
+          $this->pagination->initialize($config);
+          $data["links"] = $this->pagination->create_links();
+          $data['departments'] = $this->departments->getData();
+          $data['brand'] = $this->enquiry->getBrands();
+          $data['staff'] = $this->emp_details->teleCallersSalesStaffs();
+          $data['salesStaff'] = $this->enquiry->staffCanAssignEnquires();
+          $data['teleCallers'] = $this->emp_details->teleCallers();
+          $data['division'] = $this->divisions->getActiveData();
+          if ($this->input->get('vreg_division')) {
+               $data['showroom'] = $this->enquiry->bindShowroomByDivision($this->input->get('vreg_division'));
+          }
+          $data['teleCallers'] = $this->emp_details->teleCallersSalesStaffs();
+          //  $end = microtime(true);
+          //$exec_time = ($end - $start);
+          //echo "The execution time of the PHP script is : ".$exec_time." sec";
+          //debug($data);
+          if ($test == 'test') {
+               //debug($test);
+               $this->render_page(strtolower(__CLASS__) . '/myreg_test', $data);
+               return true;
+               //exit;
+          } elseif ($test == 'test2') {
+               //debug($test);
+               $this->render_page(strtolower(__CLASS__) . '/myreg_test2', $data);
+               return true;
+               //exit;
+          }
+          $this->render_page(strtolower(__CLASS__) . '/reassigned', $data);
           // $this->render_page(strtolower(__CLASS__) . '/myreg_test', $data);
      }
 

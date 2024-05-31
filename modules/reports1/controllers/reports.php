@@ -28,7 +28,7 @@ class reports extends App_Controller
           $data['totalRows'] = count($data['searchResult']);
           $this->render_page(strtolower(__CLASS__) . '/dar_enquires', $data);
      }
-     
+
      function quickVehicleSearch()
      {
           $data['brands'] = $this->enquiry->getBrands();
